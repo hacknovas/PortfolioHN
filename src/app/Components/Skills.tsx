@@ -14,7 +14,12 @@ export default function Skills() {
                         <div className={styles.skilllistItem}>Tools</div>
                     </div>
                 </div>
-                <Image src="https://skillicons.dev/icons?i=kubernetes,jenkins,git,kubernetes,docker,cpp,html,ipfs,js,linux,mongodb,mysql,nodejs,postman,react,css,express,go,nextjs,bootstrap,redux,solidity,terraform,ts,vercel&perline=7&theme=dark" width={500} height={300} alt="NA" />
+                <div style={{ display: "none" }}>
+                    <Image src="https://skillicons.dev/icons?i=cpp,js,ts,html,css,bootstrap,git,mysql,mongodb,express,react,redux,nextjs,nodejs&perline=7&theme=dark" width={500} height={300} alt="NA" />
+                    <Image src="https://skillicons.dev/icons?i=solidity,go,ipfs,pinata,truffle,ethereum,hyperledger,etherjs&perline=7&theme=dark" width={500} height={300} alt="NA" />
+                    <Image src="https://skillicons.dev/icons?i=jenkins,git,kubernetes,docker,linux,postman,terraform,vercel&perline=7&theme=dark" width={500} height={300} alt="NA" />
+                </div>
+                
             </div>
         </div>
     )
