@@ -32,10 +32,7 @@
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-between;
-  padding: 5% 10% 0;
-  font-size: x-large;
-  font-weight: bold;
-  text-align: end;
+  padding: 5% 10% 5%;
 }
 .headSectionItems {
   display: flex;
@@ -56,3 +53,4 @@
   cursor: pointer;
   transform: translateX(1px);
 }
+
