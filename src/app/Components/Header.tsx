@@ -29,7 +29,8 @@ export default function Header() {
 
         <div className={styles.headSectionIntro}>
           <h1>Hello..!</h1>
-          <h3>Capable of shaping concepts into execution.</h3>
+          
+          <h3>I'm Capable of shaping <br />concepts into execution.</h3>
         </div>
       </div>
 

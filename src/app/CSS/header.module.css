@@ -64,7 +64,9 @@
 .headSectionIntro h1 {
   text-align: center;
 }
-
+.headSectionIntro h2 {
+  text-align: center;
+}
 .headSectionIntro h3 {
   text-align: end;
 }
