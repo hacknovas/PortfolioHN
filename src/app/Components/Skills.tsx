@@ -19,7 +19,6 @@ export default function Skills() {
                     <Image src="https://skillicons.dev/icons?i=solidity,go,ipfs,pinata,truffle,ethereum,hyperledger,etherjs&perline=7&theme=dark" width={500} height={300} alt="NA" />
                     <Image src="https://skillicons.dev/icons?i=jenkins,git,kubernetes,docker,linux,postman,terraform,vercel&perline=7&theme=dark" width={500} height={300} alt="NA" />
                 </div>
-                
             </div>
         </div>
     )

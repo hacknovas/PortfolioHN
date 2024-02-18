@@ -31,13 +31,16 @@
 .headSection {
   display: flex;
   flex-wrap: wrap-reverse;
+  align-items: center;
   justify-content: space-between;
   padding: 5% 10% 5%;
 }
+
 .headSectionItems {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  flex-grow: 1;
 }
 .scrollDown {
   text-align: center;
@@ -54,3 +57,14 @@
   transform: translateX(1px);
 }
 
+.headSectionIntro {
+  flex-grow: 1;
+}
+
+.headSectionIntro h1 {
+  text-align: center;
+}
+
+.headSectionIntro h3 {
+  text-align: end;
+}
