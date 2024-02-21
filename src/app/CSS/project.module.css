@@ -1,15 +1,66 @@
-
-.sectionIntro{
-    text-align: center;
-    font-weight: bolder;
-    font-size: x-large;
-    padding: 20px 0;
-    text-decoration: underline lightgreen;
+.sectionIntro {
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 20px 0;
+  text-decoration: underline lightgreen;
 }
 
-.sectionName{
-    padding: 10px 0;
-    font-size: large;
-    font-weight: bolder;
-    opacity: 0.5;
+.sectionName {
+  padding: 10px 0;
+  font-size: large;
+  font-weight: bolder;
+  opacity: 0.5;
+}
+
+.projectSectionDiv {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.projectType {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectType Div {
+  /* background-color: aqua;
+   */
+  border-bottom: 2px solid black;
+  padding: 5px;
+  margin: auto;
+  cursor: grab;
+  transition: all 0.2s ease;
+}
+
+.projectType Div:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+.projectItems {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 5% 10%;
+}
+.projectItems Div {
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+}
+
+.ScrollButton {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+
+.ScrollButton:hover {
+  opacity: 0.8;
+  transform: scale(1);
 }

@@ -70,3 +70,13 @@
 .headSectionIntro h3 {
   text-align: end;
 }
+
+.projectSectionDiv{
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column; 
+}
+
+.projectSectionDiv #projectType{
+  display: flex;
+}
