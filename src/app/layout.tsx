@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Content, Inter } from "next/font/google";
+// import "@/utils/DB/connection"
 
 const inter = Inter({ subsets: ["latin"] });
 

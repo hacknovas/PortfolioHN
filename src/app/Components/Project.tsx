@@ -1,15 +1,29 @@
 "use client"
 import styles from "@/app/CSS/project.module.css"
+import axios from "axios";
 import Image from "next/image"
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import projectJSON from "@/utils/mydata.myprojects.json"
 
 export default function Project() {
 
+    type projectS = {
+        _id: {
+            $oid: string
+        },
+        Image: string,
+        Name: string,
+        Description: string,
+        Tools: string[],
+        GithubLink: string,
+        __v: Number
+    }
+
+    const [projects, setprojects] = useState<projectS[]>();
+
     function loadFun() {
-
-        const projectItems = document.querySelector(".projectItems");
-        console.log(projectItems);
-
+        console.log(projectJSON);
+        setprojects(projectJSON)
     }
 
     useEffect(() => {
@@ -27,55 +41,22 @@ export default function Project() {
                     <div>Academic</div>
                 </div>
                 <div className={styles.projectItems}>
-                    <div>
-                        <div>
-                            <Image src="" alt="na" height={100} width={100}></Image>
-                            <div>Techs</div>
-                        </div>
-                        <p>
-                            Disrciption
-                        </p>
-                    </div><div>
-                        <div>
-                            <Image src="" alt="na" height={100} width={100}></Image>
-                            <div>Techs</div>
-                        </div>
-                        <p>
-                            Disrciption
-                        </p>
-                    </div><div>
-                        <div>
-                            <Image src="" alt="na" height={100} width={100}></Image>
-                            <div>Techs</div>
-                        </div>
-                        <p>
-                            Disrciption
-                        </p>
-                    </div><div>
-                        <div>
-                            <Image src="" alt="na" height={100} width={100}></Image>
-                            <div>Techs</div>
-                        </div>
-                        <p>
-                            Disrciption
-                        </p>
-                    </div><div>
-                        <div>
-                            <Image src="" alt="na" height={100} width={100}></Image>
-                            <div>Techs</div>
-                        </div>
-                        <p>
-                            Disrciption
-                        </p>
-                    </div><div>
-                        <div>
-                            <Image src="" alt="na" height={100} width={100}></Image>
-                            <div>Techs</div>
-                        </div>
-                        <p>
-                            Disrciption
-                        </p>
-                    </div>
+
+                    {
+                        projects?.map((_data: any) => {
+                            return <div>
+                                <p>{_data.Name}</p>
+                                <div>
+                                    <Image src={_data.Image} alt="Na" height={100} width={100}></Image>
+                                    <div>{_data.Tools}</div>
+                                </div>
+                                <p>
+                                    {_data.Description}
+                                </p>
+                                <p>{_data.GithubLink}</p>
+                            </div>
+                        })
+                    }
 
                 </div>
                 <div className={styles.ScrollButton}>
