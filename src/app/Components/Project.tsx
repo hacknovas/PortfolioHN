@@ -41,23 +41,33 @@ export default function Project() {
                     <div>Academic</div>
                 </div>
                 <div className={styles.projectItems}>
-
                     {
                         projects?.map((_data: any) => {
-                            return <div>
-                                <p>{_data.Name}</p>
-                                <div>
-                                    <Image src={_data.Image} alt="Na" height={100} width={100}></Image>
-                                    <div>{_data.Tools}</div>
+                            return (
+                                <div className={styles.projectSingleItem}>
+                                    <div>
+                                        <b>{_data.Name}</b>
+                                    </div>
+                                    <div>
+                                        <Image src={_data.Image} alt="Na" width={0} height={0} objectFit="contain" layout="responsive"></Image>
+                                        <div style={{ position:"relative",left:"-10px" }}>
+                                            <Image src={`https://skillicons.dev/icons?i=${_data.Tools}&perline=7&theme=dark`} width={300} height={30} alt="NA" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p style={{ color: "white" }}>
+                                            {_data.Description}
+                                        </p>
+                                        <p>
+                                            <a href={_data.GithubLink} target="_blank" style={{ textDecoration: "none", color: "white" }}>
+                                                Github
+                                            </a>
+                                        </p>
+                                    </div>
                                 </div>
-                                <p>
-                                    {_data.Description}
-                                </p>
-                                <p>{_data.GithubLink}</p>
-                            </div>
+                            )
                         })
                     }
-
                 </div>
                 <div className={styles.ScrollButton}>
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAc5JREFUSEu11UuoTVEcx/HPHaFQlEcpDJAMyFSKifLIwDW4SphIJFLKyDMzZSBSMmOgDHS7dVPqDjxHBmYeSQYmykAp5W3/a5/slrX2PufW2bOzzvr/v//nb40Y8jcyZP+6ADOwG1uxDsvxB+/xAvdxDz9KgbYBtuF67bQt0bc4jKncpRLgfBXpuQHK9xuncDm1yQEu4OwAzptXT+BK8yAF7MREwfklHMCiFnhksglPeneagDl4g8UZB9dwDCvxqHCnZ/a6avxafI+DJuBI3dRcgB+xAe+wAs+woCWTXRhPAZPY3mLUhKyuMylBbuJQCviAJR3NDUjUOMrQBokdWZ8CvmJWH9PzCRsbkKeYn9h9rqZpXgr4gtnTAETT01KFr7kpINJe1QFIo885DxcvsSYF3MGejib3U/9wcbuauP0pYB9uFQCDTFC4GKsyuJsCosGvsDQDCdE7Wk/Ow2pfFrZkGssai/YtBcTvLdVCPSgYh5Dt7djikIrNeJyTit7ZaVzsY5pyV47javOPklyfqWQkVLXrQer5+oWTqZLmStSE78CNPrY7HpyDiN7893VFOBOjtUZF45bVT2aI3vO6XyFqP0sl7QJMsxX/zIYO+AtJ71YZvcQVbwAAAABJRU5ErkJggg==" />

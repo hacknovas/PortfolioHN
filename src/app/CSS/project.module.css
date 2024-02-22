@@ -46,12 +46,7 @@
   margin-bottom: 30px;
   overflow-x: auto;
   scrollbar-width: none;
-  padding: 5% 10%;
-}
-.projectItems Div {
-  background-color: aquamarine;
-  height: 200px;
-  width: 200px;
+  padding: 3% 10%;
 }
 
 .ScrollButton {
@@ -63,4 +58,19 @@
 .ScrollButton:hover {
   opacity: 0.8;
   transform: scale(1);
+}
+
+.projectSingleItem {
+  padding: inherit;
+  border-radius: 20px;
+  text-align: justify;
+  background-color: grey;
+}
+
+.projectSingleItem div {
+  padding: 2% 0%;
+}
+
+.projectSingleItem div:nth-child(1) {
+  text-align: end;
 }
