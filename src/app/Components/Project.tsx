@@ -65,7 +65,6 @@ export default function Project() {
                                     </div>
                                     <div>
                                         <a href={_data.GithubLink} target="_blank" style={{ textDecoration: "none", color: "white" }}>
-
                                             <i className={`devicon-${"github"}-plain colored`}></i>
                                         </a>
                                     </div>

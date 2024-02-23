@@ -62,12 +62,14 @@
 
 .projectSingleItem {
   display: flex;
-  color: white;
   flex-direction: column;
-  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
   text-align: justify;
   background-color: grey;
+  border-radius: 20px;
   padding: 20px;
+  color: white;
   transition: all 0.3s ease-in;
 }
 
