@@ -14,24 +14,38 @@
 }
 
 .skillSection {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 5% 0;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% 0;
 }
 
-.skilllist{
-    padding: 10px 0;
-    display: flex;
-    flex-direction: column;
+.skilllist {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
 }
-.skilllistItem{
-    padding: 10px 0;
-    font-weight: bold;
-    font-size: large;
-    transition: all .3s ease;
+.skilllistItem {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: large;
+  transition: all 0.3s ease;
 }
 
-.skilllistItem:hover{
-    transform: scale(1.2);
-    cursor: pointer;
+.skilllistItem:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.skillSection i {
+  border-radius: 15%;
+  padding: 2%;
+  font-size: 3em;
+}
+
+.iconsList {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }

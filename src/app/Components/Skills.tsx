@@ -1,7 +1,14 @@
+"use client"
 import styles from "@/app/CSS/skill.module.css"
 import Image from "next/image"
+import { useState } from "react"
 
 export default function Skills() {
+
+    const [web2, setweb2] = useState(["cplusplus", "javascript", "typescript", "html5", "css3", "bootstrap", "mysql", "mongodb", "react", "redux", "nextjs", "nodejs",])
+    const [web3, setweb3] = useState(["solidity", "go", "web3js", "hardhat"])
+    const [tools, setTools] = useState(["git", "kubernetes", "docker", "jenkins", "linux", "terraform"])
+
     return (
         <div id="skillSection">
             <div className={styles.sectionIntro}>What I Know? </div>
@@ -14,10 +21,34 @@ export default function Skills() {
                         <div className={styles.skilllistItem}>Tools</div>
                     </div>
                 </div>
-                <div style={{ display: "inline-block" }}>
-                    <Image src="https://skillicons.dev/icons?i=cpp,js,ts,html,css,bootstrap,git,mysql,mongodb,express,react,redux,nextjs,nodejs&perline=7&theme=dark" width={0} height={0} alt="NA" objectFit="contain" layout="responsive" />
-                    <Image src="https://skillicons.dev/icons?i=solidity,go,ipfs,pinata,truffle,ethereum,hyperledger,etherjs&perline=7&theme=dark" width={500} height={300} alt="NA" />
-                    <Image src="https://skillicons.dev/icons?i=jenkins,git,kubernetes,docker,linux,postman,terraform,vercel&perline=7&theme=dark" width={500} height={300} alt="NA" />
+                <div>
+                    <div className={styles.iconsList}>
+                        {
+                            web2.map((icons: any) => {
+                                return (
+                                    <i className={`devicon-${icons}-plain colored`}></i>
+                                )
+                            })
+                        }
+                    </div>
+                    <div className={styles.iconsList}>
+                        {
+                            web3.map((icons: any) => {
+                                return (
+                                    <i className={`devicon-${icons}-plain colored`}></i>
+                                )
+                            })
+                        }
+                    </div>
+                    <div className={styles.iconsList}>
+                        {
+                            tools.map((icons: any) => {
+                                return (
+                                    <i className={`devicon-${icons}-plain colored`}></i>
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </div>
         </div>
