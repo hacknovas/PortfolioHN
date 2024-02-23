@@ -48,23 +48,25 @@ export default function Project() {
                                     <div>
                                         <b>{_data.Name}</b>
                                     </div>
-                                    <div style={{ textAlign: "center" }}>
+                                    <div>
                                         <Image src={_data.Image} alt="Na" width={300} height={150} ></Image>
+                                    </div>
+                                    <div style={{ textAlign: "center", padding: "2% 0" }}>
                                         {
                                             _data.Tools.map((icons: any) => {
                                                 return (
-                                                    <i className={`ci ci-${icons}-dark ci-2x`} style={{ padding: "2%" }}></i>
+                                                    <i className={`devicon-${icons}-plain colored`}></i>
                                                 )
                                             })
                                         }
                                     </div>
-                                    <div style={{opacity:"0.7"}}>
+                                    <div style={{ opacity: "0.7" }}>
                                         {_data.Description.substr(0, 90) + "..."}
                                     </div>
                                     <div>
-
                                         <a href={_data.GithubLink} target="_blank" style={{ textDecoration: "none", color: "white" }}>
-                                            <i className="ci ci-github-light ci-2x" />
+
+                                            <i className={`devicon-${"github"}-plain colored`}></i>
                                         </a>
                                     </div>
                                 </div>
