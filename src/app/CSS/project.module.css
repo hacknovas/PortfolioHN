@@ -61,16 +61,29 @@
 }
 
 .projectSingleItem {
-  padding: inherit;
+  display: flex;
+  color: white;
+  flex-direction: column;
   border-radius: 20px;
   text-align: justify;
   background-color: grey;
+  padding: 20px;
+  transition: all 0.3s ease-in;
 }
 
-.projectSingleItem div {
-  padding: 2% 0%;
+.projectSingleItem div{
+  padding: 3px 0;
 }
 
 .projectSingleItem div:nth-child(1) {
   text-align: end;
+}
+
+.projectSingleItem:hover {
+  transform: translateY(2px);
+}
+
+.projectSingleItem a{
+  text-align: center;
+  justify-content: start;
 }

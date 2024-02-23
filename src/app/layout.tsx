@@ -19,6 +19,12 @@ export default function RootLayout({
       <head>
         {/* Boxicon */}
         <link rel="stylesheet" href="boxicons.min.css"></link>
+
+        {/* github icons list */}
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.7.3/src/app/ci.min.css"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
