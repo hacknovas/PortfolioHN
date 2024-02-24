@@ -18,15 +18,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Boxicon */}
-        <link rel="stylesheet" href="boxicons.min.css"></link>
+        <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        </link>
 
-        {/* github icons list */}
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.7.3/src/app/ci.min.css"
-        />
-
-        {/*"Icons" */}
+        {/*Devicon Icons" */}
 
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 

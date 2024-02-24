@@ -24,6 +24,11 @@
   opacity: 0.7;
 }
 
+.navSectionListItems a {
+  text-decoration: none;
+  color: black;
+}
+
 .navName:hover {
   opacity: 0.8;
 }
@@ -58,25 +63,26 @@
 }
 
 .headSectionIntro {
+  /* display: flex; */
+  flex-direction: column;
+  flex-wrap: wrap;
   flex-grow: 1;
 }
 
-.headSectionIntro h1 {
-  text-align: center;
-}
-.headSectionIntro h2 {
-  text-align: center;
-}
-.headSectionIntro h3 {
-  text-align: end;
-}
-
-.projectSectionDiv{
+.projectSectionDiv {
   display: flex;
   /* flex-wrap: wrap; */
-  flex-direction: column; 
+  flex-direction: column;
 }
 
-.projectSectionDiv #projectType{
+.projectSectionDiv #projectType {
   display: flex;
+}
+
+.headSectionConnect {
+  text-align: center;
+}
+.headSectionEachItem{
+  font-size: x-large;
+  color: black;
 }
