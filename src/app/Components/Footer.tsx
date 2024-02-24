@@ -1,25 +1,34 @@
 import styles from "@/app/CSS/footer.module.css"
+import Link from "next/link"
 
 export default function Footer() {
     return (
-        <div>
+        <div className={styles.lastFooterSection}>
             <div id="#contactMeSection" className={styles.contactSection}>
                 <div className={styles.contactInfo}>
                     <h3>Contact info</h3>
-                    <p><i className='bx bxs-map'></i> Pune, India</p>
-                    <p><i className='bx bxs-envelope'></i> creatives.doni@gmail.com</p>
-                    <p><i className='bx bxs-phone'></i>
-                        <p>
+                    <div><i className='bx bxs-map'></i> Pune, India</div>
+                    <div><i className='bx bxs-envelope'></i> creatives.doni@gmail.com</div>
+                    <div><i className='bx bxs-phone'></i>
+                        <div>
                             +91 8668260714
                             <br />
                             +91 9028680610
-                        </p>
-                    </p>
+                        </div>
+                    </div>
                     <p>Follow me On</p>
                     <div>
-                        <i className='bx bxl-linkedin'></i>
-                        <i className='bx bxl-github'></i>
-                        <i className='bx bxl-instagram'></i>
+                        <Link href="https://www.linkedin.com/in/prathamesh-doni-15aab8209/">
+                            <i className='bx bxl-linkedin'></i>
+                        </Link>
+
+                        <Link href="https://github.com/hacknovas">
+                            <i className='bx bxl-github'></i>
+                        </Link>
+
+                        <Link href="">
+                            <i className='bx bxl-instagram'></i>
+                        </Link>
                     </div>
                 </div>
 
@@ -47,7 +56,13 @@ export default function Footer() {
 
                 </div>
             </div>
-            <div>Footer</div>
+
+            <div className={styles.footerSection}>
+                build by <Link href="https://www.github.com/hacknovas">
+                    @Prathamesh Doni
+                </Link>
+
+            </div>
         </div>
     )
 }
