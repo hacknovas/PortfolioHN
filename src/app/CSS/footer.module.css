@@ -1,0 +1,9 @@
+.contactSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 3%;
+}
+.contactMe form div {
+  padding: 2% 0;
+}
