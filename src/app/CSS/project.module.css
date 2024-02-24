@@ -25,12 +25,10 @@
 }
 
 .projectType Div {
-  /* background-color: aqua;
-   */
   border-bottom: 2px solid black;
   padding: 5px;
   margin: auto;
-  cursor: grab;
+  cursor: pointer;
   transition: all 0.2s ease;
 }
 
@@ -55,7 +53,7 @@
   right: 5%;
   color: grey;
   font-size: xx-large;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .ScrollButton:hover {
@@ -89,6 +87,7 @@
 .projectSingleItem:hover {
   transform: translateY(2px);
   background-color: lightgrey;
+  cursor: grab;
 }
 
 .projectSingleItem a {
