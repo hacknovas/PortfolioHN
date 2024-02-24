@@ -37,7 +37,7 @@
 }
 
 .skilllistItem:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -47,7 +47,12 @@
   font-size: 3em;
 }
 
-.iconsList1,
+.iconsList1 {
+  display: flex; /*flex*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .iconsList2,
 .iconsList3 {
   display: none; /*flex*/
