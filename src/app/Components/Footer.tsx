@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Footer() {
     return (
         <div className={styles.lastFooterSection}>
-            <div id="#contactMeSection" className={styles.contactSection}>
+            <div id="contactMeSection" className={styles.contactSection}>
                 <div className={styles.contactInfo}>
                     <h3>Contact info</h3>
                     <div><i className='bx bxs-map'></i> Pune, India</div>

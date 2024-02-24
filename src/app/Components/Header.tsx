@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "@/app/CSS/header.module.css"
 import Link from "next/link";
 
@@ -42,7 +41,7 @@ export default function Header() {
         </div>
 
         <div className={styles.headSectionConnect}>
-          <Link href="#connectWithMe">
+          <Link href="#contactMeSection">
             <div className={styles.headSectionEachItem}>
               <i className='bx bxl-gmail'></i>
             </div>
