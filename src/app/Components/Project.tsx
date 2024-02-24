@@ -76,7 +76,6 @@ export default function Project() {
                 <div className={styles.ScrollButton}>
                     <i className='bx bxs-chevron-right-circle'></i>
                 </div>
-                {/* <i className="ci ci-spotify ci-2x"></i> */}
             </div>
         </div>
     )
