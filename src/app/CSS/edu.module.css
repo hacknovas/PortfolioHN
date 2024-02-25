@@ -7,12 +7,56 @@
 }
 
 .sectionName {
-  padding: 10px 0;
+  padding-bottom: 20px;
   font-size: large;
   font-weight: bolder;
+  position: relative;
+  left: 20%;
   opacity: 0.5;
 }
 
 .educationContent {
   margin: 5% 0;
+}
+
+.educationList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-wrap: wrap; */
+}
+.educationMark {
+  border-left: 2px solid grey;
+  padding: 0 20px;
+}
+
+.singleEDU {
+  width: 500px;
+  border: 2px solid lightgrey;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in;
+  border-radius: 2%;
+  padding: 10px;
+}
+
+.singleEDU:hover {
+  /* background-color: lightgray;
+   */
+   transform: translateX(2px);
+}
+
+.singleEDU::before {
+  content: "";
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border-radius: 50%;
+  /* right: 100%; */
+  /* top: 0; */
+  background-color: black;
+  border: 2px solid black;
+  left: -43px;
+  top: -14px;
 }
