@@ -5,9 +5,12 @@ export default function Header() {
   return (
     <div>
       <div className={styles.navSection}>
-        <h3 className={styles.navName}>Prathamesh Doni</h3>
+        <h3 className={styles.navName}>
+          <Link href="/" style={{ textDecoration: "none", color: "black" }}>Prathamesh Doni</Link>
+        </h3>
         <ul className={styles.navSectionList}>
           <li className={styles.navSectionListItems}><Link href="#aboutSection">About</Link></li>
+          <li className={styles.navSectionListItems}><Link href="#servicesSection">Services</Link></li>
           <li className={styles.navSectionListItems}><Link href="#skillSection">Skills</Link></li>
           <li className={styles.navSectionListItems}><Link href="#projectSection">Projects</Link></li>
           <li className={styles.navSectionListItems}><Link href="#eduSection">Qualification</Link></li>
