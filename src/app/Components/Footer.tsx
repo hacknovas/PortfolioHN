@@ -50,7 +50,7 @@ export default function Footer() {
                             <br /><textarea name="" id="Message" cols={40} rows={8}></textarea>
                         </div>
                         <div>
-                            <button type="submit" disabled>Submit</button>
+                            <button type="submit" disabled style={{ padding: "7px " }}>Submit</button>
                         </div>
                     </form>
 

@@ -1,0 +1,28 @@
+.aboutSection {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  margin: 5% 0;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.aboutText {
+  font-size: medium;
+  font-weight: bold;
+  text-align: start;
+}
+
+.sectionIntro {
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 20px 0;
+  text-decoration: underline lightgreen;
+}
+.sectionName {
+  padding: 10px 0;
+  font-size: large;
+  font-weight: bolder;
+  opacity: 0.5;
+}

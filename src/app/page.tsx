@@ -3,6 +3,7 @@ import Edu from "./Components/Edu";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Project from "./Components/Project";
+import Service from "./Components/Service";
 import Skills from "./Components/Skills";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <div className={""}>
       <Header />
       <About />
+      <Service />
       <Skills />
       <Project />
       <Edu />
