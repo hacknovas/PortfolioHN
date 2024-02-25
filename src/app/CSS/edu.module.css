@@ -1,15 +1,18 @@
-
-.sectionIntro{
-    text-align: center;
-    font-weight: bolder;
-    font-size: x-large;
-    padding: 20px 0;
-    text-decoration: underline lightgreen;
+.sectionIntro {
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 20px 0;
+  text-decoration: underline lightgreen;
 }
 
-.sectionName{
-    padding: 10px 0;
-    font-size: large;
-    font-weight: bolder;
-    opacity: 0.5;
+.sectionName {
+  padding: 10px 0;
+  font-size: large;
+  font-weight: bolder;
+  opacity: 0.5;
+}
+
+.educationContent {
+  margin: 5% 0;
 }

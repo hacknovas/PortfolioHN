@@ -34,8 +34,8 @@ export default function Project() {
     return (
         <div id="projectSection" className={styles.projectSection}>
             <div className={styles.sectionIntro}>What I Created? </div>
-            <div className={styles.sectionName}>Project Showcase</div>
             <div className={styles.projectSectionDiv}>
+                <div className={styles.sectionName}>Project Showcase</div>
                 <div className={styles.projectType}>
                     <div >Personal</div>
                     <div>Academic</div>

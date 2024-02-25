@@ -1,3 +1,7 @@
+.serviceSection {
+  margin: 5% 0;
+}
+
 .aboutSection {
   display: flex;
   flex-wrap: wrap;
@@ -21,8 +25,36 @@
   text-decoration: underline lightgreen;
 }
 .sectionName {
-  padding: 10px 0;
+  padding: 10px;
   font-size: large;
   font-weight: bolder;
+  text-align: center;
   opacity: 0.5;
+}
+.serviceList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.serviceContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 5% 0;
+}
+
+.singleService {
+  width: 400px;
+  height: fit-content;
+  text-align: center;
+  text-wrap: pretty;
+}
+
+.singleService i {
+  font-size: 4em;
+}
+.singleService Div {
+  padding: 15px 0;
 }
