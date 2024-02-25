@@ -10,6 +10,7 @@
   padding: 10px 0;
   font-size: large;
   font-weight: bolder;
+  text-align: center;
   opacity: 0.5;
 }
 
@@ -23,6 +24,7 @@
 .projectType {
   display: flex;
   flex-wrap: wrap;
+  padding: 20px 0;
 }
 
 .projectType Div {

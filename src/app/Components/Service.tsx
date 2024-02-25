@@ -10,12 +10,12 @@ export default function Service() {
                 <div className={styles.serviceList}>
                     <div className={styles.singleService}>
                         <div><i className="devicon-devicon-plain"></i></div>
-                        Web Development
+                        <h3>Web Development</h3>
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                     </div>
                     <div className={styles.singleService}>
                         <div><i className="devicon-trpc-plain"></i></div>
-                        Blockchain Development
+                        <h3>Blockchain Development</h3>
                         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                     </div>
                 </div>
