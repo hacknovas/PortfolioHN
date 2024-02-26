@@ -25,7 +25,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-wrap: wrap; */
+  flex-wrap: wrap;
+
 }
 .educationMark {
   border-left: 2px solid grey;
@@ -33,18 +34,18 @@
 }
 
 .singleEDU {
-  width: 500px;
   border: 2px solid lightgrey;
   margin-bottom: 20px;
   transition: all 0.3s ease-in;
   border-radius: 2%;
   padding: 10px;
+  text-wrap: wrap;
 }
 
 .singleEDU:hover {
   /* background-color: lightgray;
    */
-   transform: translateX(2px);
+  transform: translateX(2px);
 }
 
 .singleEDU::before {
