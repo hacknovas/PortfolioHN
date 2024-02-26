@@ -5,8 +5,8 @@ import { useState } from "react"
 export default function Skills() {
 
     const [web2, setweb2] = useState(["cplusplus", "javascript", "typescript", "html5", "css3", "bootstrap", "mysql", "mongodb", "react", "redux", "nextjs", "nodejs"])
-    const [web3, setweb3] = useState(["solidity", "go", "hardhat"])
-    const [tools, setTools] = useState(["git", "kubernetes", "docker", "jenkins", "linux", "terraform","nginx"])
+    const [web3, setweb3] = useState(["ethereum","solidity", "hardhat"])
+    const [tools, setTools] = useState(["git", "kubernetes", "docker", "jenkins", "linux", "terraform", "nginx"])
 
     return (
         <div id="skillSection">
@@ -65,3 +65,5 @@ export default function Skills() {
         </div>
     )
 }
+
+// etherjs,solidity,web3js,hardhat,truffle,ganache,remixIDE
