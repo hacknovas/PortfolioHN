@@ -2,7 +2,7 @@
 import styles from "@/app/CSS/project.module.css"
 import axios from "axios";
 import Image from "next/image"
-import { useEffect, useState } from "react";
+import { Key, useEffect, useState } from "react";
 import projectJSON from "@/utils/mydata.myprojects.json"
 
 export default function Project() {
@@ -42,9 +42,9 @@ export default function Project() {
                 </div>
                 <div className={styles.projectItems}>
                     {
-                        projects?.map((_data: any) => {
+                        projects?.map((_data: any, i) => {
                             return (
-                                <div className={styles.projectSingleItem}>
+                                <div className={styles.projectSingleItem} key={i}>
                                     <div>
                                         <b>{_data.Name}</b>
                                     </div>
@@ -53,9 +53,9 @@ export default function Project() {
                                     </div>
                                     <div style={{ textAlign: "center", padding: "2% 0" }}>
                                         {
-                                            _data.Tools.map((icons: any) => {
+                                            _data.Tools.map((icons: any, j: Key | null | undefined) => {
                                                 return (
-                                                    <i className={`devicon-${icons}-plain colored`}></i>
+                                                    <i className={`devicon-${icons}-plain colored`} key={j}></i>
                                                 )
                                             })
                                         }
