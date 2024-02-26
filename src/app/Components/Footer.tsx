@@ -41,7 +41,7 @@ export default function Footer() {
                         </div>
                         <div>
                             <label htmlFor="Email">Email: </label>
-                            <input type="email" name="" id="Email" />
+                            <input type="email" name="" id="Email" /><br />
                             <label htmlFor="Phone">Phone: </label>
                             <input type="text" name="" id="Phone" />
                         </div>

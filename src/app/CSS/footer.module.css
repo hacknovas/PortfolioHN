@@ -8,8 +8,14 @@
   justify-content: space-evenly;
   padding: 3% 0;
 }
-.contactMe form div {
-  padding: 2% 0;
+.contactMe{
+  text-align: center;
+}
+.contactMe form * {
+  /* padding: 2% 0; */
+  /* text-align: center; */
+  width: 100%;
+  text-align: center;
 }
 
 .contactInfo div {
