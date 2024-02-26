@@ -47,7 +47,7 @@
 
 .singleService {
   padding: 10px 0;
-  width: 400px;
+  /* width: 400px; */
   height: fit-content;
   text-align: center;
   text-wrap: pretty;
