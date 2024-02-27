@@ -8,6 +8,7 @@
     "Description": "Online platform that provides users with a convenient way to compare various products available in the market.",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
     "GithubLink": "https://github.com/hacknovas/WBcomp.git",
+    "tag": "Personal",
     "__v": 0
   },
   {
@@ -18,6 +19,7 @@
     "Name": "QuickChat",
     "Description": "Real Time Chat Application to connect all over people in the world.",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
+    "tag": "Personal",
     "GithubLink": "https://github.com/hacknovas/TalkATive.git",
     "__v": 0
   },
@@ -30,6 +32,7 @@
     "Description": "Blockchain Based (Ethereum) Cryptocurrency exchange and transfer application build on Testnet(Goerile,Polygon,Sepolia)",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
 
+    "tag": "Personal",
     "GithubLink": "https://github.com/hacknovas/BLChain_Pay.git",
     "__v": 0
   },
@@ -42,6 +45,7 @@
     "Description": "Each Avtar NFT is a one-of-a-kind digital masterpiece, authenticated and secured by blockchain technology.",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
 
+    "tag": "Personal",
     "GithubLink": "https://github.com/hacknovas/NFT-MarketPlace.git",
     "__v": 0
   },
@@ -54,6 +58,7 @@
     "Description": "Online Docter Consultation Website Purely Based On MERN",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
 
+    "tag": "Personal",
     "GithubLink": "https://github.com/hacknovas/healtcare.git",
     "__v": 0
   },
@@ -66,8 +71,8 @@
     "Description": "Portfolio Running on Both WEB3 And WEB2",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
 
+    "tag": "Academic",
     "GithubLink": "https://github.com/hacknovas/PortForHacknova.git",
     "__v": 0
   }
 ]
-
