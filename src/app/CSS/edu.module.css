@@ -16,6 +16,10 @@
   opacity: 0.5;
 }
 
+.educationSection{
+  margin-bottom: 10%;
+}
+
 .educationContent {
   margin: 5% 0;
   display: flex;
