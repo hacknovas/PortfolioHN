@@ -18,15 +18,15 @@
 
 .educationContent {
   margin: 5% 0;
+  display: flex;
+  font-size: 0.7rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .educationList {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-
+  width: fit-content;
 }
 .educationMark {
   border-left: 2px solid grey;
@@ -37,9 +37,8 @@
   border: 2px solid lightgrey;
   margin-bottom: 20px;
   transition: all 0.3s ease-in;
-  border-radius: 2%;
+  border-radius: 5px;
   padding: 10px;
-  text-wrap: wrap;
 }
 
 .singleEDU:hover {
@@ -62,3 +61,4 @@
   left: -43px;
   top: -14px;
 }
+/* text-align: center; */
