@@ -5,15 +5,17 @@ export default function Header() {
   return (
     <div>
       <div className={styles.navSection}>
-        <h3 className={styles.navName}>
-          <Link href="/" style={{ textDecoration: "none", color: "black" }}>Prathamesh Doni</Link>
-        </h3>
+        <div className={styles.navName}>
+          <Link href="/" style={{ textDecoration: "none", color: "black" }}>
+            <h3>Prathamesh Doni</h3>
+          </Link>
+        </div>
         <ul className={styles.navSectionList}>
-          <li className={styles.navSectionListItems}><Link href="#aboutSection">About</Link></li>
-          <li className={styles.navSectionListItems}><Link href="#servicesSection">Services</Link></li>
-          <li className={styles.navSectionListItems}><Link href="#skillSection">Skills</Link></li>
-          <li className={styles.navSectionListItems}><Link href="#projectSection">Projects</Link></li>
-          <li className={styles.navSectionListItems}><Link href="#eduSection">Qualification</Link></li>
+          <li className={styles.navSectionListItems}><Link href="#aboutSection"><div>About</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="#servicesSection"><div>Services</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="#skillSection"><div>Skills</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="#projectSection"><div>Projects</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="#eduSection"><div>Qualification</div></Link></li>
         </ul>
       </div>
       <div className={styles.headSection}>
