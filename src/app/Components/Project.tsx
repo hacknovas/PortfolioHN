@@ -39,7 +39,8 @@ export default function Project() {
                 <div className={styles.projectType}>
                     <div onClick={() => {
                         settag("Personal");
-                    }}>Personal</div>
+
+                    }} >Personal</div>
                     <div onClick={() => {
                         settag("Academic");
                     }}>Academic</div>

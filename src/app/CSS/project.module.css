@@ -41,11 +41,10 @@
 }
 
 .projectItems {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 18px;
+  display: flex;
+  column-gap: 20px;
   margin-bottom: 30px;
-  overflow-x: auto;
+  overflow-x: scroll;
   scrollbar-width: none;
   padding: 3% 5%;
 }
