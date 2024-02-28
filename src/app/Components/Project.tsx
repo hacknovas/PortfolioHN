@@ -45,7 +45,7 @@ export default function Project() {
                         settag("Academic");
                     }}>Academic</div>
                 </div>
-                <div className={styles.projectItems}>
+                <div className={styles.projectItems} >
                     {
                         projects?.map((_data: any, i) => {
                             return (
