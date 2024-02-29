@@ -55,7 +55,7 @@ export default function Project() {
                                             <b>{_data.Name}</b>
                                         </div>
                                         <div>
-                                            <Image src={_data.Image} alt="Na" width={300} height={150} ></Image>
+                                            <Image src={_data.Image} alt="Na" width={300} height={150} style={{ borderRadius: "5px", boxShadow: "2px 2px 4px black" }}></Image>
                                         </div>
                                         <div style={{ textAlign: "center", padding: "2% 0" }}>
                                             {

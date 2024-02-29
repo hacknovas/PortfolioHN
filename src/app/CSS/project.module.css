@@ -71,15 +71,12 @@
   text-align: justify;
   border-radius: 20px;
   padding: 20px;
-  /* border: 2px lightgray solid; */
-  border-top: 1px lightgrey solid;
-  border-left: 1px lightgrey solid;
-  box-shadow: 5px 5px lightgray;
+  box-shadow: 1px 1px 5px lightgray,-1px -1px 5px  lightgray;
   transition: all 0.3s ease-in;
 }
 
 .projectSingleItem div {
-  padding: 3px 0;
+  padding: 5px 0;
 }
 
 .projectSingleItem div:nth-child(1) {
@@ -88,11 +85,6 @@
 
 .projectSingleItem:hover {
   transform: translateY(2px);
-}
-
-.projectSingleItem a {
-  text-align: center;
-  justify-content: start;
 }
 
 .projectSingleItem i {
