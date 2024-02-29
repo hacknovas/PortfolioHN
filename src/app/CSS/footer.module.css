@@ -12,14 +12,16 @@
   text-align: center;
 }
 .contactMe form * {
-  /* padding: 2% 0; */
+  padding: 2% 0;
   /* text-align: center; */
   width: 100%;
   text-align: center;
+  border-radius: 10px;
 }
 
 .contactInfo div {
   padding: 2% 0;
+  font-size: large;
 }
 .contactInfo a {
   color: black;

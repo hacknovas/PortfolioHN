@@ -11,12 +11,12 @@ export default function Service() {
                     <div className={styles.singleService}>
                         <div><i className="devicon-devicon-plain"></i></div>
                         <h3>Web Development</h3>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <div>Whether you're envisioning a simple portfolio site or a complex e-commerce platform, I have the expertise to bring your vision to life.</div>
                     </div>
                     <div className={styles.singleService}>
                         <div><i className="devicon-trpc-plain"></i></div>
                         <h3>Blockchain Development</h3>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <div>I specialize in crafting secure, transparent, and customized decentralized applications (DApps) to fit your unique requirements.</div>
                     </div>
                 </div>
             </div>

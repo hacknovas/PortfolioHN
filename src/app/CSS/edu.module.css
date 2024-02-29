@@ -23,7 +23,6 @@
 .educationContent {
   margin: 5% 0;
   display: flex;
-  font-size: 0.7rem;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -44,11 +43,10 @@
   border-radius: 5px;
   padding: 10px;
   width: 100%;
+  font-size: medium;
 }
 
 .singleEDU:hover {
-  /* background-color: lightgray;
-   */
   transform: translateX(2px);
 }
 
