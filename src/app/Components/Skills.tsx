@@ -14,7 +14,7 @@ export default function Skills() {
             <div className={styles.skillSection}>
                 <div className={styles.skilllist} >
                     <div className={styles.sectionName}>Skills</div>
-                    <div >
+                    <div className={styles.skillListAll}>
                         <div className={styles.skilllistItem} onClick={() => {
                             document.querySelector<HTMLElement>("#icon1 ")!.style.display = "flex";
                             document.querySelector<HTMLElement>("#icon2 ")!.style.display = "none";

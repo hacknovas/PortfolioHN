@@ -87,3 +87,21 @@
   font-size: x-large;
   color: black;
 }
+
+@media screen and (max-width:600px){
+  .navSectionList{
+    display: none;
+  }
+  .headSectionItems{
+    flex-direction: row;
+    padding: 2% 0;
+  }
+  .headSectionItems a{
+    padding: 1%;
+  }
+}
+@media screen and (max-width:800px) {
+  .headSectionConnect{
+    display: none;
+  }
+}

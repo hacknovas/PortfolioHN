@@ -28,6 +28,7 @@
 }
 .allIconsList {
   flex-grow: 2;
+  padding: 2%;
 }
 .skilllistItem {
   padding: 10px 0;
@@ -60,4 +61,30 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .skilllist {
+    flex-direction: row;
+  }
+  .skillListAll {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .skilllistItem {
+    padding: 0 1%;
+  }
+  .skillSection {
+    flex-direction: column;
+  }
+  .sectionName {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skillListAll {
+    display: none;
+  }
 }
