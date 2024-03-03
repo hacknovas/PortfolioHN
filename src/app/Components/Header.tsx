@@ -7,7 +7,7 @@ export default function Header() {
       <div className={styles.navSection}>
         <div className={styles.navName}>
           <Link href="/" style={{ textDecoration: "none", color: "black" }}>
-            <h3>Prathamesh Doni</h3>
+            <h3>Prathamesh Doni </h3>
           </Link>
         </div>
         <ul className={styles.navSectionList}>
@@ -41,7 +41,7 @@ export default function Header() {
 
         <div className={styles.headSectionIntro}>
           <div>Hello,</div>
-          <h1>I'm Prathamesh</h1>
+          <h1>I'm Prathamesh </h1>
           <h3>Capable of shaping concepts into execution.</h3>
         </div>
 

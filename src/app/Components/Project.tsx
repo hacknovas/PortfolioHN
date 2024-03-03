@@ -54,20 +54,23 @@ export default function Project() {
                                         <div>
                                             <b>{_data.Name}</b>
                                         </div>
-                                        <div>
-                                            <Image src={_data.Image} alt="Na" width={300} height={150} style={{ borderRadius: "5px", boxShadow: "2px 2px 4px black" }}></Image>
+                                        <div style={{ display: "flex" }} >
+                                            <Image src={_data.Image} alt="Na" width={300} height={150} style={{ borderRadius: "5px", boxShadow: "2px 2px 4px black" }}
+                                                objectFit="contain"
+                                            ></Image>
+                                            <div style={{ display: "flex", flexDirection: "column", paddingLeft: "10px", alignItems: "center", justifyContent: "center" }}>
+                                                {
+                                                    _data.Tools.map((icons: any, j: Key | null | undefined) => {
+                                                        return (
+                                                            <i className={`devicon-${icons}-plain colored`} key={j}></i>
+                                                        )
+                                                    })
+                                                }
+                                            </div>
                                         </div>
-                                        <div style={{ textAlign: "center", padding: "2% 0" }}>
-                                            {
-                                                _data.Tools.map((icons: any, j: Key | null | undefined) => {
-                                                    return (
-                                                        <i className={`devicon-${icons}-plain colored`} key={j}></i>
-                                                    )
-                                                })
-                                            }
-                                        </div>
-                                        <div style={{ opacity: "0.7" }}>
-                                            {_data.Description.substr(0, 90) + "..."}
+
+                                        <div style={{ opacity: "0.7", textWrap: "wrap" }}>
+                                            {_data.Description.substr(0, 60) + "..."}
                                         </div>
                                         <div>
                                             <a href={_data.GithubLink} target="_blank" style={{ textDecoration: "none", color: "white" }}>
@@ -79,9 +82,9 @@ export default function Project() {
                         })
                     }
                 </div>
-                <div className={styles.ScrollButton}>
+                {/* <div className={styles.ScrollButton}>
                     <i className='bx bxs-chevron-right-circle'></i>
-                </div>
+                </div> */}
             </div>
         </div>
     )

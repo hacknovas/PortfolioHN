@@ -42,10 +42,10 @@
 
 .projectItems {
   display: flex;
-  column-gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   margin-bottom: 30px;
-  overflow-x: scroll;
-  scrollbar-width: none;
   padding: 3% 5%;
 }
 
@@ -64,27 +64,25 @@
 }
 
 .projectSingleItem {
+  width: min-content;
+  height: min-content;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: justify;
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: 1px 1px 5px lightgray,-1px -1px 5px  lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px lightgray, -1px -1px 5px lightgray;
   transition: all 0.3s ease-in;
+  text-wrap: wrap;
 }
 
 .projectSingleItem div {
   padding: 5px 0;
 }
 
-.projectSingleItem div:nth-child(1) {
-  text-align: end;
-}
-
 .projectSingleItem:hover {
-  transform: translateY(2px);
+  transform: translateX(2px);
+  background-color: whitesmoke;
 }
 
 .projectSingleItem i {
