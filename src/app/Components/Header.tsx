@@ -17,6 +17,9 @@ export default function Header() {
           <li className={styles.navSectionListItems}><Link href="#projectSection"><div>Projects</div></Link></li>
           <li className={styles.navSectionListItems}><Link href="#eduSection"><div>Qualification</div></Link></li>
         </ul>
+        <div className={styles.navMenuIcon}>
+          <i className='bx bx-menu'></i>
+        </div>
       </div>
       <div className={styles.headSection}>
         <ul className={styles.headSectionItems}>

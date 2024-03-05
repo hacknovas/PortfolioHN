@@ -9,7 +9,7 @@ export default function About() {
                 <div className={styles.aboutSLeft}>
                     <div className={styles.aboutText} >
                         <div className={styles.sectionName}>About</div>
-                        I'm <br /> Full Stack Developer <br /> primarily Working On Web 2.0 and Blockhain Technology. 
+                        I'm <br /> Full Stack Developer <br /> primarily Working On Web 2.0 and Blockhain Technology.
                     </div>
                     <p>
                         As a lifelong learner, I'm driven to excel in any tech field<br />And constantly expanding my skills.
