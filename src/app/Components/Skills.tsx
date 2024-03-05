@@ -31,6 +31,9 @@ export default function Skills() {
                             document.querySelector<HTMLElement>("#icon1")!.style.display = "none";
                         }}>Tools</div>
                     </div>
+                    <div className={styles.skillMenuIcon}>
+                        <i className='bx bx-menu'></i>
+                    </div>
                 </div>
                 <div className={styles.allIconsList}>
                     <div id="icon1" className={styles.iconsList1}>

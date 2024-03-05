@@ -64,6 +64,10 @@
   align-items: center;
 }
 
+.skillMenuIcon {
+  display: none;
+}
+
 @media screen and (max-width: 1000px) {
   .skilllist {
     flex-direction: row;
@@ -87,5 +91,15 @@
 @media screen and (max-width: 600px) {
   .skillListAll {
     display: none;
+  }
+
+  .skillMenuIcon {
+    display: block;
+    font-size: xx-small;
+    opacity: 0.7;
+    text-align: end;
+  }
+  .skilllist {
+    justify-content: space-between;
   }
 }
