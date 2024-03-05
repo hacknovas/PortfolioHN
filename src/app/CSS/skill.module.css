@@ -50,14 +50,15 @@
 }
 
 .iconsList1 {
-  display: flex; /*flex*/
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
+
 .iconsList2,
 .iconsList3 {
-  display: none; /*flex*/
+  display: none;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;

@@ -1,5 +1,5 @@
-.lastFooterSection{
-    background-color: whitesmoke;
+.lastFooterSection {
+  background-color: whitesmoke;
 }
 
 .contactSection {
@@ -8,7 +8,7 @@
   justify-content: space-evenly;
   padding: 3% 0;
 }
-.contactMe{
+.contactMe {
   text-align: center;
 }
 .contactMe form * {
@@ -28,15 +28,24 @@
   padding: 1%;
 }
 
-.footerSection{
-    padding-top: 3% ;
-    padding-bottom: 1% ;
-    text-align: center;
+.footerSection {
+  padding-top: 3%;
+  padding-bottom: 1%;
+  text-align: center;
 }
 
-.footerSection a{
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-    
+.footerSection a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 570px) {
+  .contactInfo {
+    text-align: center;
+  }
+  .contactMe {
+    margin-top: 20px;
+    border-top: 2px solid grey;
+  }
 }
