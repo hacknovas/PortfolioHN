@@ -13,7 +13,13 @@ export default function Header() {
             <h3>Prathamesh Doni </h3>
           </Link>
         </div>
-        <ul id="toggleCSS" className={styles.navSectionList}>
+        <ul id="toggleCSS" className={styles.navSectionList} onClick={() => {
+          toggle ? document.querySelector<HTMLElement>("#toggleCSS")!.style.top = "-1000px" : document.querySelector<HTMLElement>("#toggleCSS")!.style.top = "-19px";
+          !toggle ? settoggle(true) : settoggle(false);
+        }}>
+          <div className={styles.closeButton}>
+            &#10005;
+          </div>
           <li className={styles.navSectionListItems}><Link href="#aboutSection"><div>About</div></Link></li>
           <li className={styles.navSectionListItems}><Link href="#servicesSection"><div>Services</div></Link></li>
           <li className={styles.navSectionListItems}><Link href="#skillSection"><div>Skills</div></Link></li>
@@ -22,7 +28,7 @@ export default function Header() {
         </ul>
         <div className={styles.navMenuIcon}>
           <i className='bx bx-menu' onClick={() => {
-            toggle ? document.querySelector<HTMLElement>("#toggleCSS")!.style.display = "block" : document.querySelector<HTMLElement>("#toggleCSS")!.style.display = "none";
+            toggle ? document.querySelector<HTMLElement>("#toggleCSS")!.style.top = "-1000px" : document.querySelector<HTMLElement>("#toggleCSS")!.style.top = "-19px";
             !toggle ? settoggle(true) : settoggle(false);
           }}></i>
         </div>

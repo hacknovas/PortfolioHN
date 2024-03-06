@@ -82,7 +82,6 @@
 
 .projectSingleItem:hover {
   transform: translateX(1px);
-  background-color: whitesmoke;
 }
 
 .projectSingleItem i {
