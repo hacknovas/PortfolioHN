@@ -43,9 +43,9 @@ export default function Header() {
         </ul>
 
         <div className={styles.headSectionIntro}>
-          <div>Hello,</div>
+          <div><b style={{ opacity: "0.7" }}>Hello</b></div>
           <h1>I'm Prathamesh </h1>
-          <h3>Capable of shaping concepts into execution.</h3>
+          <h3 style={{ opacity: "0.8" }}>Capable of shaping concepts into execution.</h3>
         </div>
 
         <div className={styles.headSectionConnect}>
