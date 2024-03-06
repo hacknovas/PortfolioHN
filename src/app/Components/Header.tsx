@@ -1,7 +1,10 @@
+"use client"
 import styles from "@/app/CSS/header.module.css"
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Header() {
+  const [toggle, settoggle] = useState(false)
   return (
     <div>
       <div className={styles.navSection}>
@@ -10,7 +13,7 @@ export default function Header() {
             <h3>Prathamesh Doni </h3>
           </Link>
         </div>
-        <ul className={styles.navSectionList}>
+        <ul id="toggleCSS" className={styles.navSectionList}>
           <li className={styles.navSectionListItems}><Link href="#aboutSection"><div>About</div></Link></li>
           <li className={styles.navSectionListItems}><Link href="#servicesSection"><div>Services</div></Link></li>
           <li className={styles.navSectionListItems}><Link href="#skillSection"><div>Skills</div></Link></li>
@@ -18,7 +21,10 @@ export default function Header() {
           <li className={styles.navSectionListItems}><Link href="#eduSection"><div>Qualification</div></Link></li>
         </ul>
         <div className={styles.navMenuIcon}>
-          <i className='bx bx-menu'></i>
+          <i className='bx bx-menu' onClick={() => {
+            toggle ? document.querySelector<HTMLElement>("#toggleCSS")!.style.right = "-900px" : document.querySelector<HTMLElement>("#toggleCSS")!.style.right = "0px";
+            !toggle ? settoggle(true) : settoggle(false);
+          }}></i>
         </div>
       </div>
       <div className={styles.headSection}>
