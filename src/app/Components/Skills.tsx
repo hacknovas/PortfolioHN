@@ -7,32 +7,43 @@ export default function Skills() {
     const [web2, setweb2] = useState(["cplusplus", "javascript", "typescript", "html5", "css3", "bootstrap", "mysql", "mongodb", "react", "redux", "nextjs", "nodejs"])
     const [web3, setweb3] = useState(["ethereum", "solidity", "hardhat"])
     const [tools, setTools] = useState(["git", "kubernetes", "docker", "jenkins", "linux", "terraform", "nginx"])
+    const [toggle, settoggle] = useState(false)
 
     return (
         <div id="skillSection">
             <div className={styles.sectionIntro}>What I Know? </div>
             <div className={styles.skillSection}>
                 <div className={styles.skilllist} >
-                    <div className={styles.sectionName}>Skills</div>
-                    <div className={styles.skillListAll}>
+                    <div className={styles.sectionName}>Skills
+                    </div>
+                    <div className={styles.skillMenuIcon} onClick={() => {
+                        toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "500px" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "105px";
+                        !toggle ? settoggle(true) : settoggle(false);
+                    }}>
+                        <i className='bx bxs-chevron-down'></i>
+                    </div>
+                    <div id="toggleCSS2" className={styles.skillListAll} >
                         <div className={styles.skilllistItem} onClick={() => {
                             document.querySelector<HTMLElement>("#icon1 ")!.style.display = "flex";
                             document.querySelector<HTMLElement>("#icon2 ")!.style.display = "none";
                             document.querySelector<HTMLElement>("#icon3 ")!.style.display = "none";
+                            toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "500px" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "105px";
+                            !toggle ? settoggle(true) : settoggle(false);
                         }}>Web 2.0</div>
                         <div className={styles.skilllistItem} onClick={() => {
                             document.querySelector<HTMLElement>("#icon2")!.style.display = "flex";
                             document.querySelector<HTMLElement>("#icon3")!.style.display = "none";
                             document.querySelector<HTMLElement>("#icon1")!.style.display = "none";
+                            toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "500px" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "105px";
+                            !toggle ? settoggle(true) : settoggle(false);
                         }}>Web 3.0</div>
                         <div className={styles.skilllistItem} onClick={() => {
                             document.querySelector<HTMLElement>("#icon3")!.style.display = "flex";
                             document.querySelector<HTMLElement>("#icon2")!.style.display = "none";
                             document.querySelector<HTMLElement>("#icon1")!.style.display = "none";
+                            toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "500px" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "105px";
+                            !toggle ? settoggle(true) : settoggle(false);
                         }}>Tools</div>
-                    </div>
-                    <div className={styles.skillMenuIcon}>
-                        <i className='bx bx-menu'></i>
                     </div>
                 </div>
                 <div className={styles.allIconsList}>
