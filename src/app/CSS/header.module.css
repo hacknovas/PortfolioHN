@@ -11,7 +11,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   list-style: none;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .navSectionListItems {
@@ -101,9 +101,9 @@
     top: 10%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: start;
-    right: -900px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    right: 0px;
     padding: 2% 5%;
     list-style: none;
     background: whitesmoke;

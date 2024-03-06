@@ -22,7 +22,7 @@ export default function Header() {
         </ul>
         <div className={styles.navMenuIcon}>
           <i className='bx bx-menu' onClick={() => {
-            toggle ? document.querySelector<HTMLElement>("#toggleCSS")!.style.right = "-900px" : document.querySelector<HTMLElement>("#toggleCSS")!.style.right = "0px";
+            toggle ? document.querySelector<HTMLElement>("#toggleCSS")!.style.display = "block" : document.querySelector<HTMLElement>("#toggleCSS")!.style.display = "none";
             !toggle ? settoggle(true) : settoggle(false);
           }}></i>
         </div>
