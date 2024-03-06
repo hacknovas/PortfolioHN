@@ -106,10 +106,10 @@
     text-align: center;
     background-color: whitesmoke;
     z-index: 5;
-    width: 100%;
-    left: -19px;
-    top: -1000px;
     height: 101%;
+    width: 100%;
+    right: 0px;
+    top: -1000px;
   }
   .navSectionListItems {
     width: 100%;
