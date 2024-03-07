@@ -10,7 +10,7 @@ export default function Skills() {
     const [toggle, settoggle] = useState(false)
 
     return (
-        <div id="skillSection">
+        <div id="skillSection" className={styles.supSkillSection}>
             <div className={styles.sectionIntro}>What I Know? </div>
             <div className={styles.skillSection}>
                 <div className={styles.skilllist} >

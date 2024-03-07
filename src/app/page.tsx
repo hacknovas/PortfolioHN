@@ -1,4 +1,3 @@
-// import "@/app/globals.css"
 import About from "./Components/About";
 import Edu from "./Components/Edu";
 import Footer from "./Components/Footer";

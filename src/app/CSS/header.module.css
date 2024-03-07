@@ -4,6 +4,13 @@
   flex-wrap: wrap;
   padding: 20px 0;
   cursor: pointer;
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(59, 201, 100, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
 }
 
 .navSectionList {
@@ -41,6 +48,15 @@
   align-items: center;
   justify-content: space-between;
   padding: 10% 10% 10%;
+  margin: 0 2%;
+  border-radius: 5px;
+  background: rgb(228, 69, 252);
+  background: linear-gradient(
+    212deg,
+    rgba(228, 69, 252, 0.0817533343025808) 0%,
+    rgba(29, 253, 166, 0.0986072668868504) 53%,
+    rgba(58, 180, 85, 0.1800679410441538) 100%
+  );
 }
 
 .headSectionItems {

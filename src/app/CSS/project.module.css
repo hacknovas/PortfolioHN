@@ -1,3 +1,11 @@
+.projectSection {
+  /* background-color: rgb(245, 245, 245);
+   */
+   background: rgb(228,69,252);
+   background: linear-gradient(90deg, rgba(228,69,252,0.1014162556508954) 0%, rgba(29,31,253,0.0986072668868504) 43%, rgba(58,61,180,0.1014162556508954) 100%);
+  margin: 0 2%;
+}
+
 .sectionIntro {
   text-align: center;
   font-weight: bolder;
@@ -74,6 +82,7 @@
   box-shadow: 1px 1px 5px lightgray, -1px -1px 5px lightgray;
   transition: all 0.3s ease-in;
   text-wrap: wrap;
+  background-color: white;
 }
 
 .projectSingleItem div {

@@ -3,7 +3,7 @@ import styles from "@/app/CSS/about.module.css"
 
 export default function About() {
     return (
-        <div id="aboutSection">
+        <div id="aboutSection" className={styles.supAboutSection}>
             <div className={styles.sectionIntro}>Who am I? </div>
             <div className={styles.aboutSection}>
                 <div className={styles.aboutSLeft}>
