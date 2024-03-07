@@ -10,16 +10,14 @@ export default function Edu() {
                     <div className={styles.educationMark}>
                         <div className={styles.singleEDU}>
                             <b>2020 - Present</b>
-                            <h3>Graduation</h3>
-                            <h4>Bachelors in Computer Engineering</h4>
-                            <p>CGPA: 9.30</p>
-                            <p>Core Subjects: DSA / DBMS / OS / Networking</p>
+                            <h3>Bachelors in Computer Engineering</h3>
+                            <p>CGPA: <br /><b> 9.30</b></p>
+                            <p>Core Subjects: <br /><b> DSA / DBMS / OS / Networking</b></p>
                         </div>
                         <div className={styles.singleEDU}>
                             <b>2018 - 2020</b>
-                            <h3>High School</h3>
-                            <h4></h4>
-                            <p>Percentage: 78%</p>
+                            <h3>High School (H.S.C)</h3>
+                            <p>Percentage: <br /><b>78%</b></p>
                             <p></p>
                         </div>
                     </div>
