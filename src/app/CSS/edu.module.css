@@ -21,7 +21,7 @@
 
 .educationContent {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
   margin: 5% 0;
@@ -30,6 +30,7 @@
 .educationList {
   width: fit-content;
 }
+
 .educationMark {
   border-left: 2px solid grey;
   padding: 0 20px;
@@ -56,11 +57,14 @@
   height: 16px;
   display: inline-block;
   border-radius: 50%;
-  /* right: 100%; */
-  /* top: 0; */
   background-color: black;
   border: 2px solid black;
   left: -43px;
   top: -14px;
 }
-/* text-align: center; */
+
+@media screen and (max-width:415px) {
+  .educationList{
+    width: 90%;
+  }
+}
