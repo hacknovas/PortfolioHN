@@ -1,9 +1,15 @@
 .projectSection {
   /* background-color: rgb(245, 245, 245);
    */
-   background: rgb(228,69,252);
-   background: linear-gradient(90deg, rgba(228,69,252,0.1014162556508954) 0%, rgba(29,31,253,0.0986072668868504) 43%, rgba(58,61,180,0.1014162556508954) 100%);
+  background: rgb(228, 69, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(218, 255, 194, 0.101) 0%,
+    rgba(192, 193, 238, 0.099) 43%,
+    rgba(203, 219, 250, 0.101) 100%
+  );
   margin: 0 2%;
+  border-radius: 5px;
 }
 
 .sectionIntro {
