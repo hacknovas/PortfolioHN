@@ -10,7 +10,7 @@ export default function Service() {
                 <div className={styles.serviceList}>
                     <div className={styles.singleService}>
                         <div><i className="devicon-devicon-plain"></i></div>
-                        <h3>Web Development</h3>
+                        <h3>Web  Development</h3>
                         <div>Whether you're envisioning a simple portfolio site or a complex e-commerce platform, I have the expertise to bring your vision to life.</div>
                     </div>
                     <div className={styles.singleService}>

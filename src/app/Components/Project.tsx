@@ -82,9 +82,6 @@ export default function Project() {
                         })
                     }
                 </div>
-                {/* <div className={styles.ScrollButton}>
-                    <i className='bx bxs-chevron-right-circle'></i>
-                </div> */}
             </div>
         </div>
     )

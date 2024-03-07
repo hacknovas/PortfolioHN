@@ -1,7 +1,6 @@
 .aboutSection {
   display: flex;
   flex-wrap: wrap-reverse;
-  padding: 20px 0;
   margin: 5% 0;
   justify-content: space-evenly;
   cursor: pointer;
