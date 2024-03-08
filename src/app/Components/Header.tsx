@@ -4,7 +4,9 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function Header() {
+
   const [toggle, settoggle] = useState(false)
+
   return (
     <div>
       <div className={styles.navSection}>
