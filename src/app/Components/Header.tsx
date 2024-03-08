@@ -37,21 +37,27 @@ export default function Header() {
       </div>
       <div className={styles.headSection}>
         <ul className={styles.headSectionItems}>
-          <Link href="https://www.linkedin.com/in/prathamesh-doni-15aab8209/">
+          <Link href="https://www.linkedin.com/in/prathamesh-doni-15aab8209/" target="_blank">
             <div className={styles.headSectionEachItem}>
               <i className='bx bxl-linkedin'></i>
             </div>
           </Link>
 
-          <Link href="https://github.com/hacknovas">
+          <Link href="https://github.com/hacknovas" target="_blank">
             <div className={styles.headSectionEachItem}>
               <i className='bx bxl-github'></i>
             </div>
           </Link>
 
-          <Link href="">
+          <Link href="" target="_blank">
             <div className={styles.headSectionEachItem}>
               <i className='bx bxl-instagram'></i>
+            </div>
+          </Link>
+
+          <Link href="https://drive.google.com/file/d/1a0ybZz9Abl4fHeaRQapov3d_-YxWvR5p/view?usp=sharing" target="_blank">
+            <div className={styles.headSectionEachItem}>
+              <i className='bx bx-link'></i>
             </div>
           </Link>
         </ul>
