@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* {DynamicAnimation scrollreveal} */}
-        <script src="https://unpkg.com/scrollreveal"></script>
+        {/* <script src="https://unpkg.com/scrollreveal"></script> */}
 
         {/* Boxicon */}
         <link rel="stylesheet"
