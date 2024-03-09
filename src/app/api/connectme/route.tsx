@@ -6,7 +6,8 @@ export async function POST(req: NextRequest, res: NextResponse) {
     const nodemailer = require("nodemailer");
 
     const transporter = nodemailer.createTransport({
-        service: "Gmail",
+        // service: "Gmail",
+        host: 'smtp.gmail.com',
         port: 465,
         secure: true,
         auth: {
