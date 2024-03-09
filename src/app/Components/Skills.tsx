@@ -8,7 +8,6 @@ export default function Skills() {
     const [web3, setweb3] = useState(["ethereum", "solidity", "hardhat"])
     const [tools, setTools] = useState(["git", "kubernetes", "docker", "jenkins", "linux", "terraform", "nginx"])
     const [toggle, settoggle] = useState(false)
-    const [CNT, setCNT] = useState(false)
 
     return (
         <div id="skillSection" className={styles.supSkillSection}>
@@ -18,9 +17,8 @@ export default function Skills() {
                     <div className={styles.sectionName}>Skills
                     </div>
                     <div className={styles.skillMenuIcon} onClick={() => {
-                        toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.display = "none" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.display = "block";
+                        toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "1000px" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "0px";
                         !toggle ? settoggle(true) : settoggle(false);
-                        setCNT(true);
                     }}>
                         <i className='bx bxs-chevron-down'></i>
                     </div>
@@ -30,30 +28,24 @@ export default function Skills() {
                             document.querySelector<HTMLElement>("#icon2 ")!.style.display = "none";
                             document.querySelector<HTMLElement>("#icon3 ")!.style.display = "none";
 
-                            if (CNT) {
-                                toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.display = "none" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.display = "block";
-                                !toggle ? settoggle(true) : settoggle(false);
-                            }
+                            toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "1000px" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "0px";
+                            !toggle ? settoggle(true) : settoggle(false);
                         }}>Web 2.0</div>
                         <div className={styles.skilllistItem} onClick={() => {
                             document.querySelector<HTMLElement>("#icon2")!.style.display = "flex";
                             document.querySelector<HTMLElement>("#icon3")!.style.display = "none";
                             document.querySelector<HTMLElement>("#icon1")!.style.display = "none";
 
-                            if (CNT) {
-                                toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.display = "none" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.display = "block";
-                                !toggle ? settoggle(true) : settoggle(false);
-                            }
+                            toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "1000px" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "0px";
+                            !toggle ? settoggle(true) : settoggle(false);
                         }}>Web 3.0</div>
                         <div className={styles.skilllistItem} onClick={() => {
                             document.querySelector<HTMLElement>("#icon3")!.style.display = "flex";
                             document.querySelector<HTMLElement>("#icon2")!.style.display = "none";
                             document.querySelector<HTMLElement>("#icon1")!.style.display = "none";
 
-                            if (CNT) {
-                                toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.display = "none" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.display = "block";
-                                !toggle ? settoggle(true) : settoggle(false);
-                            }
+                            toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "1000px" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "0px";
+                            !toggle ? settoggle(true) : settoggle(false);
                         }}>Tools</div>
                     </div>
                 </div>

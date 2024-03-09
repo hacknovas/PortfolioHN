@@ -69,6 +69,10 @@
   display: none;
 }
 
+.skillListAll {
+  transition: all 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 1000px) {
   .skilllist {
     flex-direction: row;
@@ -91,12 +95,13 @@
 
 @media screen and (max-width: 600px) {
   .skillListAll {
-    display: none;
+    display: block;
     position: absolute;
     text-align: center;
     border-radius: 10px;
     background-color: whitesmoke;
     top: 43px;
+    right: 1000px;
     padding: 1%;
   }
 
