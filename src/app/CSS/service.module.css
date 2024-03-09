@@ -1,15 +1,9 @@
 .serviceSection {
   margin: 5% 2%;
-  /* background-color: whitesmoke; */
-  background: rgb(228, 69, 252);
-  background: linear-gradient(
-    90deg,
-    rgba(250, 250, 250, 0.101) 0%,
-    rgba(156, 158, 247, 0.099) 43%,
-    rgba(253, 253, 253, 0.101) 100%
-  );
-  padding-bottom: 1%;
+  padding: 2% 0;
   border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 2px rgb(228, 227, 227), -1px -1px 2px rgb(230, 230, 230);
 }
 
 .aboutSection {

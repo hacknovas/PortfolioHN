@@ -1,5 +1,6 @@
 .lastFooterSection {
-  background-color: whitesmoke;
+  background-color: lightgray;
+  box-shadow: -1px -1px 4px rgb(230, 230, 230);
 }
 
 .contactSection {

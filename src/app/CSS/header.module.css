@@ -47,16 +47,11 @@
   flex-wrap: wrap-reverse;
   align-items: center;
   justify-content: space-between;
-  padding: 10% 10% 10%;
+  padding: 8% 10% 8%;
   margin: 0 2%;
   border-radius: 5px;
-  background: rgb(228, 69, 252);
-  background: linear-gradient(
-    212deg,
-    rgba(232, 126, 248, 0.055) 0%,
-    rgba(255, 255, 255, 0.099) 53%,
-    rgba(147, 173, 153, 0.11) 100%
-  );
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 2px rgb(228, 227, 227), -1px -1px 2px rgb(230, 230, 230);
 }
 
 .headSectionItems {

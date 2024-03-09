@@ -1,15 +1,9 @@
 .projectSection {
-  /* background-color: rgb(245, 245, 245);
-   */
-  background: rgb(228, 69, 252);
-  background: linear-gradient(
-    90deg,
-    rgba(218, 255, 194, 0.101) 0%,
-    rgba(192, 193, 238, 0.099) 43%,
-    rgba(203, 219, 250, 0.101) 100%
-  );
   margin: 0 2%;
+  padding-top: 2% ;
   border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 2px rgb(228, 227, 227), -1px -1px 2px rgb(230, 230, 230);
 }
 
 .sectionIntro {
