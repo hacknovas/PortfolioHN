@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Content, Inter } from "next/font/google";
-// import "@/utils/DB/connection"
+import "@/utils/DB/connection"
 import "@/app/globals.css"
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,9 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* {DynamicAnimation scrollreveal} */}
-        {/* <script src="https://unpkg.com/scrollreveal"></script> */}
-
         {/* Boxicon */}
         <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
