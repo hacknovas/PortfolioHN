@@ -17,7 +17,7 @@ export default function Footer() {
             const req = await axios.post("api/connectme", { Name, Phone, Message, Email }, {
                 headers: {
                     "Content-Type": "application/json"
-                }
+                }, timeout: 10000
             })
 
 
