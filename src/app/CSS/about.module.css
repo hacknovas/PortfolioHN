@@ -1,11 +1,11 @@
 .supAboutSection {
-  margin: 5% 2%;
+  margin: 50px 2%;
 }
 
 .aboutSection {
   display: flex;
   flex-wrap: wrap-reverse;
-  margin: 5% 0;
+  margin: 50px 0;
   justify-content: space-evenly;
   cursor: pointer;
 }
