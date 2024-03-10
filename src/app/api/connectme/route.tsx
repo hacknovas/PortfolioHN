@@ -28,12 +28,16 @@ export async function POST(req: NextRequest, res: NextResponse) {
         text: "Thank For reaching out...! \n\n We Recieved details...Stay tuned for reply.",
     };
 
-    transporter.sendMail(mailOptions, (error: any, info: any) => {
-        if (error) {
-            console.error("Error sending email: ", error);
-        } else {
-            console.log("Email sent: ", info.response);
-        }
+    await new Promise((resolve, reject) => {
+        transporter.sendMail(mailOptions, (error: any, info: any) => {
+            if (error) {
+                console.error("Error sending email: ", error);
+                reject(error);
+            } else {
+                console.log("Email sent: ", info.response);
+                resolve(info);
+            }
+        });
     });
 
     return NextResponse.json({
