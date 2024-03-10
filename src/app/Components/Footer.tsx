@@ -10,6 +10,7 @@ export default function Footer() {
     const [Phone, setPhone] = useState<String>();
     const [Message, setMessage] = useState<String>();
     const [Email, setEmail] = useState<String>();
+    const [displayM, setdisplayM] = useState<String>()
 
     const connecthandler = async (e: any) => {
         e.preventDefault();
@@ -20,10 +21,12 @@ export default function Footer() {
                 }, timeout: 10000
             })
 
+            setdisplayM("Message Sent.");
 
         } catch (error) {
-            alert(error);
+            setdisplayM("Please Try After Some Time.");
         }
+        document.querySelector<HTMLElement>("#msgdisplay")!.style.display = "block";
     }
 
     return (
@@ -82,7 +85,7 @@ export default function Footer() {
                             }}></textarea>
                         </div>
                         <div>
-                            <button type="submit" style={{ padding: "7px " }}>Submit</button>
+                            <button type="submit" style={{ padding: "7px " ,cursor:"pointer"}} >Submit</button>
                         </div>
                     </form>
 
@@ -93,7 +96,18 @@ export default function Footer() {
                 build by <Link href="https://www.github.com/hacknovas">
                     @Prathamesh Doni
                 </Link>
-
+            </div>
+            <div className={styles.displayMSG} id="msgdisplay">
+                <div>
+                    <b>
+                        {displayM}
+                    </b>
+                    <div>
+                        <i className='bx bx-x' onClick={() => {
+                            document.querySelector<HTMLElement>("#msgdisplay")!.style.display = "none";
+                        }}></i>
+                    </div>
+                </div>
             </div>
         </div>
     )

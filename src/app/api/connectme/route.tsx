@@ -6,7 +6,6 @@ export async function POST(req: NextRequest, res: NextResponse) {
     const nodemailer = require("nodemailer");
 
     const transporter = nodemailer.createTransport({
-        // service: "Gmail",
         host: 'smtp.gmail.com',
         port: 465,
         secure: true,
@@ -41,6 +40,6 @@ export async function POST(req: NextRequest, res: NextResponse) {
     });
 
     return NextResponse.json({
-        result: "Ok"
+        result: "Email sent."
     })
 }

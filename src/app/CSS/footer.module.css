@@ -1,5 +1,5 @@
 .lastFooterSection {
-  background-color: lightgray;
+  background-color: rgba(78, 78, 78, 0.5);
   box-shadow: -1px -1px 4px rgb(230, 230, 230);
 }
 
@@ -14,7 +14,6 @@
 }
 .contactMe form * {
   padding: 2% 0;
-  /* text-align: center; */
   width: 100%;
   text-align: center;
   border-radius: 10px;
@@ -39,6 +38,31 @@
   color: black;
   text-decoration: none;
   font-weight: bolder;
+}
+
+.displayMSG {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  background-color: white;
+  color: grey;
+  width: 200px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid grey;
+}
+
+.displayMSG div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.displayMSG:hover{
+  transform: scale(1.03);
+  box-shadow: 1px 1px 4px grey,-1px -1px 4px grey;
+  color: darkslategray;
 }
 
 @media screen and (max-width: 570px) {
