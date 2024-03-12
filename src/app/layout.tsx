@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { League_Spartan,Roboto } from "next/font/google";
-import "@/utils/DB/connection"
+import { Roboto } from "next/font/google";
+// import "@/utils/DB/connection"
 import "@/app/globals.css"
 
 const roboto = Roboto({
