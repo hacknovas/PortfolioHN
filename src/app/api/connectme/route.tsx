@@ -1,5 +1,4 @@
-// import mongoose from "mongoose";
-// import { modelConnect } from "@/utils/models/myconnects"
+import { modelConnect } from "@/utils/models/myconnects"
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest, res: NextResponse) {
@@ -17,8 +16,8 @@ export async function POST(req: NextRequest, res: NextResponse) {
 
     const data = await req.json();
 
-    // const saveDate = new modelConnect(data);
-    // await saveDate.save();
+    const saveDate = new modelConnect(data);
+    await saveDate.save();
 
     const mailOptions = {
         from: "Prathamesh Doni",
