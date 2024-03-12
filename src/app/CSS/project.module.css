@@ -1,6 +1,6 @@
 .projectSection {
   margin: 0 2%;
-  padding-top: 25px ;
+  padding-top: 25px;
   border-radius: 5px;
   background-color: whitesmoke;
   box-shadow: 1px 1px 2px rgb(228, 227, 227), -1px -1px 2px rgb(230, 230, 230);
@@ -11,7 +11,8 @@
   font-weight: bolder;
   font-size: x-large;
   padding: 20px 0;
-  text-decoration: underline lightgreen;
+  text-decoration: underline gray;
+  text-underline-offset: 5px;
 }
 
 .sectionName {

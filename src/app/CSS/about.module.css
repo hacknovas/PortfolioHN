@@ -21,7 +21,8 @@
   font-weight: bolder;
   font-size: x-large;
   padding: 20px 0;
-  text-decoration: underline lightgreen;
+  text-decoration: underline gray;
+  text-underline-offset: 5px;
 }
 .sectionName {
   padding: 10px 0;

@@ -6,7 +6,7 @@ export default function Skills() {
 
     const [web2, setweb2] = useState(["cplusplus", "javascript", "typescript", "html5", "css3", "bootstrap", "mysql", "mongodb", "react", "redux", "nextjs", "nodejs"])
     const [web3, setweb3] = useState(["ethereum", "solidity", "hardhat"])
-    const [tools, setTools] = useState(["git", "kubernetes", "docker", "jenkins", "linux", "terraform", "nginx"])
+    const [tools, setTools] = useState(["git", "kubernetes", "docker", "jenkins", "linux", "terraform", "nginx","amazonwebservices"])
     const [toggle, settoggle] = useState(false)
 
     return (
@@ -46,7 +46,7 @@ export default function Skills() {
 
                             toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "1000px" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "0px";
                             !toggle ? settoggle(true) : settoggle(false);
-                        }}>Tools</div>
+                        }}>Others</div>
                     </div>
                 </div>
                 <div className={styles.allIconsList}>

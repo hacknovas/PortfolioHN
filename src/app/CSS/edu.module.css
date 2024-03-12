@@ -3,7 +3,8 @@
   font-weight: bolder;
   font-size: x-large;
   padding: 20px 0;
-  text-decoration: underline lightgreen;
+  text-decoration: underline gray;
+  text-underline-offset: 5px;
 }
 
 .sectionName {
@@ -15,7 +16,7 @@
   opacity: 0.5;
 }
 
-.educationSection{
+.educationSection {
   margin: 50px 0;
 }
 
@@ -62,8 +63,8 @@
   top: -14px;
 }
 
-@media screen and (max-width:415px) {
-  .educationList{
+@media screen and (max-width: 415px) {
+  .educationList {
     width: 90%;
   }
 }

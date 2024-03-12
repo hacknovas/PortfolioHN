@@ -45,15 +45,15 @@ export default function Footer() {
                     </div>
                     <p>Follow me On</p>
                     <div>
-                        <Link href="https://www.linkedin.com/in/prathamesh-doni-15aab8209/">
+                        <Link href="https://www.linkedin.com/in/prathamesh-doni-15aab8209/" target="_blank">
                             <i className='bx bxl-linkedin'></i>
                         </Link>
 
-                        <Link href="https://github.com/hacknovas">
+                        <Link href="https://github.com/hacknovas" target="_blank">
                             <i className='bx bxl-github'></i>
                         </Link>
 
-                        <Link href="">
+                        <Link href="" target="_blank">
                             <i className='bx bxl-instagram'></i>
                         </Link>
                     </div>
