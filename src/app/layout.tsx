@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { Content, Inter } from "next/font/google";
+import { League_Spartan,Roboto } from "next/font/google";
 import "@/utils/DB/connection"
 import "@/app/globals.css"
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: "400"
+});
 
 export const metadata: Metadata = {
   title: "Prathamesh Doni",
@@ -28,7 +31,7 @@ export default function RootLayout({
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }
