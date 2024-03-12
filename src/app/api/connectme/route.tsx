@@ -17,7 +17,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
     const data = await req.json();
 
     const saveDate = new modelConnect(data);
-    await saveDate.save();
+    saveDate.save();
 
     const mailOptions = {
         from: "Prathamesh Doni",
