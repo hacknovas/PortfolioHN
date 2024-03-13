@@ -1,5 +1,5 @@
 
-import styles from "@/app/CSS/about.module.css"
+import styles from "@/app/CSS/about.module.css";
 
 export default function About() {
     return (
