@@ -2,6 +2,7 @@
 import styles from "@/app/CSS/header.module.css"
 import Link from "next/link";
 import { useState } from "react";
+import SlideTemplate from "./Animate/SlideTemplate";
 
 export default function Header() {
 
@@ -63,9 +64,11 @@ export default function Header() {
         </ul>
 
         <div className={styles.headSectionIntro}>
-          <div><b style={{ opacity: "0.7" }}>Hello</b></div>
-          <h1>I'm Prathamesh </h1>
-          <h3 style={{ opacity: "0.8" }}>Capable of shaping concepts into execution.</h3>
+          <SlideTemplate>
+            <div><b style={{ opacity: "0.7" }}>Hello</b></div>
+            <h1>I'm Prathamesh </h1>
+            <h3 style={{ opacity: "0.8" }}>Capable of shaping concepts into execution.</h3>
+          </SlideTemplate>
         </div>
 
         <div className={styles.headSectionConnect}>
