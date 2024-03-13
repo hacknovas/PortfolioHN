@@ -6,6 +6,7 @@
 * {
   /* color: var(--text-Color) !important;
   background-color: var(--background-color) !important; */
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
