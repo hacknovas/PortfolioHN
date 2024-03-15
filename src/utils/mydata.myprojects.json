@@ -3,7 +3,7 @@
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689011961/WBCOMP.png",
     "Name": "UpSort",
     "Description": "Similar products comparison website build using Web Scraping and NextJS. Implemented server-side logic using Puppeteer and Cheerio alongside API development to extract product information from e-commerce website",
-    "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
+    "Tools": ["react", "typescript", "bootstrap", "javascript", "solidity", "mongodb", "nodejs"],
     "GithubLink": "https://github.com/hacknovas/WBcomp.git",
     "tag": "Personal"
   },
