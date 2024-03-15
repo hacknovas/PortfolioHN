@@ -70,9 +70,6 @@
 }
 
 .headSectionIntro {
-  /* display: flex; */
-  flex-direction: column;
-  flex-wrap: wrap;
   flex-grow: 1;
 }
 
@@ -144,6 +141,7 @@
   .navSection {
     justify-content: space-between;
     padding: 0 10px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 800px) {
