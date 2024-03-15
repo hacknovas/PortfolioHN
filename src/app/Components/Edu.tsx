@@ -10,14 +10,22 @@ export default function Edu() {
                     <div className={styles.educationMark}>
                         <div className={styles.singleEDU}>
                             <b>2020 - Present</b>
-                            <h3>Bachelors in Computer Engineering</h3>
-                            <p>CGPA: <br /><b> 9.30</b></p>
-                            <p>Core Subjects: <br /><b> DSA / DBMS / OS / Networking</b></p>
+                            <h3>B.E in Computer Engineering</h3>
+                            <div>VPKBIET, Baramati</div>
+                            <p>CGPA:  9.30</p>
                         </div>
                         <div className={styles.singleEDU}>
-                            <b>2018 - 2020</b>
-                            <h3>High School (H.S.C)</h3>
-                            <p>Percentage: <br /><b>78%</b></p>
+                            <b>2019 - 2020</b>
+                            <h3>Class XII (MSBSHSE)</h3>
+                            <div>S.S.M.V, Pune</div>
+                            <p>Percentage: 78% </p>
+                            <p></p>
+                        </div>
+                        <div className={styles.singleEDU}>
+                            <b>2017 - 2018</b>
+                            <h3>Class X (MSBSHSE)</h3>
+                            <div>S.S.M.V, Pune</div>
+                            <p>Percentage: 90% </p>
                             <p></p>
                         </div>
                     </div>

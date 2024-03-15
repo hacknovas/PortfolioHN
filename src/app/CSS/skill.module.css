@@ -78,6 +78,17 @@
   transition: all 0.3s ease-in-out;
 }
 
+.externalImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.externalImg img{
+  padding: 10px;
+}
+
 @media screen and (max-width: 1000px) {
   .skilllist {
     flex-direction: row;

@@ -5,8 +5,8 @@ import { useState } from "react"
 export default function Skills() {
 
     const [web2, setweb2] = useState(["cplusplus-plain colored", "javascript-plain colored", "typescript-plain colored", "html5-plain-wordmark colored", "css3-plain-wordmark colored", "bootstrap-plain-wordmark colored", "mysql-original colored", "mongodb-plain colored", "react-original colored", "redux-original colored", "nextjs-plain colored", "nodejs-plain-wordmark colored"])
-    const [web3, setweb3] = useState(["ethereum", "solidity-plain colored", "hardhat-plain colored"])
-    const [tools, setTools] = useState(["git-plain colored", "kubernetes-plain colored", "docker-plain colored", "jenkins-plain colored", "linux-plain colored", "terraform-plain colored", "nginx-original colored", "amazonwebservices-plain-wordmark colored"])
+    const [web3, setweb3] = useState([ "solidity-plain colored", "hardhat-plain colored"])
+    const [tools, setTools] = useState(["git-plain colored", "kubernetes-plain colored", "docker-plain colored", "jenkins-plain colored", "linux-plain colored", "terraform-plain colored", "nginx-original colored", "amazonwebservices-plain-wordmark colored", "mocha-plain colored"])
     const [toggle, settoggle] = useState(false)
 
     return (
@@ -60,12 +60,22 @@ export default function Skills() {
                         }
                     </div>
                     <div id="icon2" className={styles.iconsList2}>
+                        {/* // External */}
+                        <div className={styles.externalImg}>
+                            <img src="/Images/ganache.png" width={50} height={70} alt="" />
+                            <img src="/Images/metamask.png" width={60} height={70} alt="" />
+                            <img src="/Images/ethereum.png" width={60} height={70} alt="" />
+                            <img src="/Images/truffle.png" width={60} height={70} alt="" />
+                            <img src="/Images/web3js.png" width={70} height={70} alt="" />
+                        </div>
+                        {/* Icon */}
                         {
                             web3.map((icons: any, i) => {
                                 return (
                                     <i className={`devicon-${icons}`} key={i}></i>
                                 )
                             })
+
                         }
                     </div>
                     <div className={styles.iconsList3} id="icon3">
@@ -79,6 +89,6 @@ export default function Skills() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
