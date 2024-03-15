@@ -65,7 +65,7 @@
   {
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689020820/?.png",
     "Name": "Uncloud",
-    "Description": "Portfolio Running on Both WEB3 And WEB2",
+    "Description": "Blockchain based cloud file sharing system.",
     "Tools": [
       "react-original colored",
       "hardhat-plain colored",

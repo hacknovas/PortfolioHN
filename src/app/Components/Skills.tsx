@@ -4,9 +4,9 @@ import { useState } from "react"
 
 export default function Skills() {
 
-    const [web2, setweb2] = useState(["cplusplus", "javascript", "typescript", "html5", "css3", "bootstrap", "mysql", "mongodb", "react", "redux", "nextjs", "nodejs"])
-    const [web3, setweb3] = useState(["ethereum", "solidity", "hardhat"])
-    const [tools, setTools] = useState(["git", "kubernetes", "docker", "jenkins", "linux", "terraform", "nginx","amazonwebservices"])
+    const [web2, setweb2] = useState(["cplusplus-plain colored", "javascript-plain colored", "typescript-plain colored", "html5-plain-wordmark colored", "css3-plain-wordmark colored", "bootstrap-plain-wordmark colored", "mysql-original colored", "mongodb-plain colored", "react-original colored", "redux-original colored", "nextjs-plain colored", "nodejs-plain-wordmark colored"])
+    const [web3, setweb3] = useState(["ethereum", "solidity-plain colored", "hardhat-plain colored"])
+    const [tools, setTools] = useState(["git-plain colored", "kubernetes-plain colored", "docker-plain colored", "jenkins-plain colored", "linux-plain colored", "terraform-plain colored", "nginx-original colored", "amazonwebservices-plain-wordmark colored"])
     const [toggle, settoggle] = useState(false)
 
     return (
@@ -54,7 +54,7 @@ export default function Skills() {
                         {
                             web2.map((icons: any, i) => {
                                 return (
-                                    <i className={`devicon-${icons}-plain colored`} key={i}></i>
+                                    <i className={`devicon-${icons}`} key={i}></i>
                                 )
                             })
                         }
@@ -63,7 +63,7 @@ export default function Skills() {
                         {
                             web3.map((icons: any, i) => {
                                 return (
-                                    <i className={`devicon-${icons}-plain colored`} key={i}></i>
+                                    <i className={`devicon-${icons}`} key={i}></i>
                                 )
                             })
                         }
@@ -72,7 +72,7 @@ export default function Skills() {
                         {
                             tools.map((icons: any, i) => {
                                 return (
-                                    <i className={`devicon-${icons}-plain colored`} key={i}></i>
+                                    <i className={`devicon-${icons}`} key={i}></i>
                                 )
                             })
                         }
