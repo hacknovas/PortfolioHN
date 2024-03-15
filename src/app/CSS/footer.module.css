@@ -1,6 +1,7 @@
 .lastFooterSection {
-  background-color: rgba(78, 78, 78, 0.5);
+  background-color: rgba(37, 37, 37, 0.829);
   box-shadow: -1px -1px 4px rgb(230, 230, 230);
+  color: white;
 }
 
 .contactSection {
@@ -24,7 +25,7 @@
   font-size: large;
 }
 .contactInfo a {
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 1%;
 }
 
@@ -35,7 +36,7 @@
 }
 
 .footerSection a {
-  color: black;
+  color: darkgrey;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -59,9 +60,9 @@
   justify-content: space-between;
 }
 
-.displayMSG:hover{
+.displayMSG:hover {
   transform: scale(1.03);
-  box-shadow: 1px 1px 4px grey,-1px -1px 4px grey;
+  box-shadow: 1px 1px 4px grey, -1px -1px 4px grey;
   color: darkslategray;
 }
 

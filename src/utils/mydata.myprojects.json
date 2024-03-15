@@ -1,78 +1,53 @@
 [
   {
-    "_id": {
-      "$oid": "64ac5f581713ab80dd5b6a0a"
-    },
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689011961/WBCOMP.png",
-    "Name": "Product Compare",
-    "Description": "Online platform that provides users with a convenient way to compare various products available in the market.",
+    "Name": "UpSort",
+    "Description": "Similar products comparison website build using Web Scraping and NextJS. Implemented server-side logic using Puppeteer and Cheerio alongside API development to extract product information from e-commerce website",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
     "GithubLink": "https://github.com/hacknovas/WBcomp.git",
-    "tag": "Personal",
-    "__v": 0
+    "tag": "Personal"
   },
   {
-    "_id": {
-      "$oid": "64ac61021713ab80dd5b6a0c"
-    },
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689016057/TalATive.png",
     "Name": "QuickChat",
-    "Description": "Real Time Chat Application to connect all over people in the world.",
+    "Description": "Real time chat application built using MERN stack and Websocket.Implemented email-based search and connection features, along with real-time communication in both one-on-one and group chat using Socket.IO integration.",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
     "tag": "Personal",
-    "GithubLink": "https://github.com/hacknovas/TalkATive.git",
-    "__v": 0
+    "GithubLink": "https://github.com/hacknovas/TalkATive.git"
   },
   {
-    "_id": {
-      "$oid": "64ac6325e12dfb85ff126ef2"
-    },
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689012663/BTrans.png",
     "Name": "BTrans",
     "Description": "Blockchain Based (Ethereum) Cryptocurrency exchange and transfer application build on Testnet(Goerile,Polygon,Sepolia)",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
-
     "tag": "Personal",
-    "GithubLink": "https://github.com/hacknovas/BLChain_Pay.git",
-    "__v": 0
+    "GithubLink": "https://github.com/hacknovas/BLChain_Pay.git"
   },
   {
     "_id": {
       "$oid": "64ac6526e5c093d6fc62f753"
     },
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689012352/AvtarNFTs.png",
-    "Name": "AvtarNFT",
-    "Description": "Each Avtar NFT is a one-of-a-kind digital masterpiece, authenticated and secured by blockchain technology.",
+    "Name": "NFT Marketplace",
+    "Description": "Developed marketplace for selling and buying non-fungible tokens, built on ERC721. Addressed challenges in the traditional art and collectibles market by leveraging blockchain technology to ensure authenticity and ownership verification of digital assets.",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
-
     "tag": "Personal",
-    "GithubLink": "https://github.com/hacknovas/NFT-MarketPlace.git",
-    "__v": 0
+    "GithubLink": "https://github.com/hacknovas/NFT-MarketPlace.git"
   },
   {
-    "_id": {
-      "$oid": "64ac65d5e5c093d6fc62f755"
-    },
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689016916/Healthcare.png",
     "Name": "Healthcare",
-    "Description": "Online Docter Consultation Website Purely Based On MERN",
+    "Description": "Online Docter Consultation Website Purely Based On MERN Stack.",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
-
-    "tag": "Personal",
-    "GithubLink": "https://github.com/hacknovas/healtcare.git",
-    "__v": 0
+    "tag": "Academic",
+    "GithubLink": "https://github.com/hacknovas/healtcare.git"
   },
   {
-    "_id": {
-      "$oid": "64ac6a8a79ddc37e43c370fc"
-    },
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689020820/Portfolio.png",
     "Name": "Portfolio",
     "Description": "Portfolio Running on Both WEB3 And WEB2",
     "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
-
-    "tag": "Academic",
-    "GithubLink": "https://github.com/hacknovas/PortForHacknova.git",
-    "__v": 0
+    "tag": "Personal",
+    "GithubLink": "https://github.com/hacknovas/PortForHacknova.git"
   }
 ]

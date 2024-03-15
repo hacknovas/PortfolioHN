@@ -20,8 +20,8 @@ export default function SlideTemplate({ children }: { children: React.ReactNode 
         <div ref={ref} style={{ overflow: "hidden" }} >
             <motion.div
                 variants={{
-                    hidden: { left: "-100%", position: "relative" },
-                    visible: { left: 0 },
+                    hidden: { left: "-100%", position: "relative"},
+                    visible: { left: 0},
                 }}
 
                 initial="hidden"
