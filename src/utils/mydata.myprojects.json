@@ -3,7 +3,11 @@
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689011961/WBCOMP.png",
     "Name": "UpSort",
     "Description": "Similar products comparison website build using Web Scraping and NextJS. Implemented server-side logic using Puppeteer and Cheerio alongside API development to extract product information from e-commerce website",
-    "Tools": ["react", "typescript", "bootstrap", "javascript", "solidity", "mongodb", "nodejs"],
+    "Tools": [
+      "nextjs-plain colored",
+      "puppeteer-plain colored",
+      "mongodb-plain colored"
+    ],
     "GithubLink": "https://github.com/hacknovas/WBcomp.git",
     "tag": "Personal"
   },
@@ -11,7 +15,14 @@
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689016057/TalATive.png",
     "Name": "QuickChat",
     "Description": "Real time chat application built using MERN stack and Websocket.Implemented email-based search and connection features, along with real-time communication in both one-on-one and group chat using Socket.IO integration.",
-    "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
+    "Tools": [
+      "react-original colored",
+      "nodejs-plain-wordmark colored",
+      "mongodb-plain colored",
+      "express-original colored",
+      "socketio-original colored",
+      "bootstrap-plain colored"
+    ],
     "tag": "Personal",
     "GithubLink": "https://github.com/hacknovas/TalkATive.git"
   },
@@ -19,18 +30,15 @@
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689012663/BTrans.png",
     "Name": "BTrans",
     "Description": "Blockchain Based (Ethereum) Cryptocurrency exchange and transfer application build on Testnet(Goerile,Polygon,Sepolia)",
-    "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
+    "Tools": ["react-original colored", "bootstrap-plain colored"],
     "tag": "Personal",
     "GithubLink": "https://github.com/hacknovas/BLChain_Pay.git"
   },
   {
-    "_id": {
-      "$oid": "64ac6526e5c093d6fc62f753"
-    },
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689012352/AvtarNFTs.png",
     "Name": "NFT Marketplace",
     "Description": "Developed marketplace for selling and buying non-fungible tokens, built on ERC721. Addressed challenges in the traditional art and collectibles market by leveraging blockchain technology to ensure authenticity and ownership verification of digital assets.",
-    "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
+    "Tools": ["react-original colored","solidity-plain colored"],
     "tag": "Personal",
     "GithubLink": "https://github.com/hacknovas/NFT-MarketPlace.git"
   },
@@ -38,7 +46,11 @@
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689016916/Healthcare.png",
     "Name": "Healthcare",
     "Description": "Online Docter Consultation Website Purely Based On MERN Stack.",
-    "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
+    "Tools": [
+      "react-original colored",
+      "mongodb-plain colored",
+      "nodejs-plain colored"
+    ],
     "tag": "Academic",
     "GithubLink": "https://github.com/hacknovas/healtcare.git"
   },
@@ -46,8 +58,20 @@
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689020820/Portfolio.png",
     "Name": "Portfolio",
     "Description": "Portfolio Running on Both WEB3 And WEB2",
-    "Tools": ["reactjs", "ts", "bootstrap", "js", "solidity", "go", "cpp"],
+    "Tools": ["nextjs-plain colored"],
     "tag": "Personal",
+    "GithubLink": "https://github.com/hacknovas/PortForHacknova.git"
+  },
+  {
+    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689020820/?.png",
+    "Name": "Uncloud",
+    "Description": "Portfolio Running on Both WEB3 And WEB2",
+    "Tools": [
+      "react-original colored",
+      "hardhat-plain colored",
+      "solidity-plain colored"
+    ],
+    "tag": "Academic",
     "GithubLink": "https://github.com/hacknovas/PortForHacknova.git"
   }
 ]
