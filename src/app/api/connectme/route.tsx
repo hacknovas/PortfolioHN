@@ -23,7 +23,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
         from: "Prathamesh Doni",
         to: data.Email,
         subject: "Hello from Prathamesh Doni",
-        text: "Thank For reaching out...! \n\n We Recieved details...Stay tuned for reply.",
+        text: `Hello,\n\nThank you for reaching out! I have received your details and will get back to you as soon as possible. Your patience is greatly appreciated.\n\nBest regards,\nPrathamesh Doni`,
     };
 
     await new Promise((resolve, reject) => {
