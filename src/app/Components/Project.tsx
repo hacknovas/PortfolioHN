@@ -8,28 +8,18 @@ import projectJSON from "@/utils/mydata.myprojects.json"
 export default function Project() {
     const [tag, settag] = useState<string>("Personal")
     type projectS = {
-        _id: {
-            $oid: string
-        },
         Image: string,
         Name: string,
         Description: string,
         Tools: string[],
         GithubLink: string,
-        __v: Number
     }
 
     const [projects, setprojects] = useState<projectS[]>();
 
-
-    function loadFun() {
-        setprojects(projectJSON)
-    }
-
     useEffect(() => {
-        loadFun()
+        setprojects(projectJSON);
     }, [])
-
 
     return (
         <div id="projectSection" className={styles.projectSection}>
@@ -54,7 +44,7 @@ export default function Project() {
                                         <div>
                                             <b>{_data.Name}</b>
                                         </div>
-                                        <div style={{ display: "flex"}} >
+                                        <div style={{ display: "flex" }} >
                                             <Image src={_data.Image} alt="Na" width={300} height={150} style={{ borderRadius: "5px", boxShadow: "2px 2px 4px black" }}
                                                 objectFit="contain"
                                             ></Image>
