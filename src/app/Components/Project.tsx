@@ -48,7 +48,7 @@ export default function Project() {
                                             <Image src={_data.Image} alt="Na" width={300} height={150} style={{ borderRadius: "5px", boxShadow: "2px 2px 4px black" }}
                                                 objectFit="contain"
                                             ></Image>
-                                            <div style={{ display: "flex", flexDirection: "column", paddingLeft: "10px", overflowY: "scroll", height: "140px", rowGap: "6px"}}>
+                                            <div style={{ display: "flex", flexDirection: "column", paddingLeft: "10px", overflowY: "scroll", height: "140px", rowGap: "6px" }}>
                                                 {
                                                     _data.Tools.map((icons: any, j: Key | null | undefined) => {
                                                         return (
@@ -60,11 +60,15 @@ export default function Project() {
                                         </div>
 
                                         <div style={{ opacity: "0.7", textWrap: "wrap" }}>
-                                            {_data.Description.substr(0, 60) + "..."}
+                                            {_data.Description.substr(0, 90) + "..."}
                                         </div>
                                         <div>
-                                            <a href={_data.GithubLink} target="_blank" style={{ textDecoration: "none", color: "white" }}>
-                                                <i className={`devicon-${"github"}-plain colored`}></i>
+                                            <a href={_data.GithubLink} target="_blank" style={{ textDecoration: "none", color: "black" }}>
+
+                                                <i className={`devicon-${"github"}-plain colored`}>
+                                                    <b style={{fontSize:"large"}}>GitHub</b>
+                                                </i>
+
                                             </a>
                                         </div>
                                     </div> : null
