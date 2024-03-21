@@ -1,6 +1,7 @@
 
 import styles from "@/app/CSS/about.module.css";
 import SlideTemplate from "./Animate/SlideTemplate";
+import Image from "next/image";
 
 export default function About() {
     return (
@@ -18,8 +19,8 @@ export default function About() {
                         </p>
                     </SlideTemplate>
                 </div>
-                <div className={styles.aboutSReft}>
-                    imageNA
+                <div className={styles.aboutSReftOutside}>
+                    <Image className={styles.aboutSReft} src="/Images/profileAbout.jpg" alt="NA" width={340} height={300} ></Image>
                 </div>
             </div>
         </div>
