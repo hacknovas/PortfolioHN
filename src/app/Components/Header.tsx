@@ -3,7 +3,6 @@ import styles from "@/app/CSS/header.module.css"
 import Link from "next/link";
 import { useState } from "react";
 import SlideTemplate from "./Animate/SlideTemplate";
-import Image from "next/image";
 
 export default function Header() {
 

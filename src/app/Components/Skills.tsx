@@ -60,7 +60,6 @@ export default function Skills() {
                         }
                     </div>
                     <div id="icon2" className={styles.iconsList2}>
-                        {/* // External */}
                         <div className={styles.externalImg}>
                             <img src="/Images/ganache.png" width={50} height={70} alt="" />
                             <img src="/Images/metamask.png" width={60} height={70} alt="" />
@@ -68,7 +67,6 @@ export default function Skills() {
                             <img src="/Images/truffle.png" width={60} height={70} alt="" />
                             <img src="/Images/web3js.png" width={70} height={70} alt="" />
                         </div>
-                        {/* Icon */}
                         {
                             web3.map((icons: any, i) => {
                                 return (
