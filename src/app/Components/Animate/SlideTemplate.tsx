@@ -20,13 +20,13 @@ export default function SlideTemplate({ children }: { children: React.ReactNode 
         <div ref={ref} style={{ overflow: "hidden" }} >
             <motion.div
                 variants={{
-                    hidden: { top: "-1000px", left: "0", position: "relative", opacity: "0.4", fontSize: "x-large" },
+                    hidden: { top: "-1000px", left: "-100px", position: "relative", opacity: "0.4", fontSize: "x-large" },
                     visible: { left: "0", top: "0", opacity: "1", fontSize: "large" },
                 }}
 
                 initial="hidden"
                 animate={slideControls}
-                transition={{ duration: 0.7 }}
+                transition={{ duration: 0.8 }}
                 style={{
                 }}
             >
