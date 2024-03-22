@@ -57,7 +57,7 @@
   },
   {
     "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689016916/Healthcare.png",
-    "Name": "Healthcare",
+    "Name": "Healthcare System",
     "Description": "Online Docter Consultation Website build On MERN Stack.",
     "Tools": [
       "react-original colored",
