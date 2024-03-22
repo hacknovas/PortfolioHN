@@ -50,7 +50,7 @@ export default function Header() {
             </div>
           </Link>
 
-          <Link href="" target="_blank">
+          <Link href="https://www.instagram.com/the_prathamesh_doni?igsh=dHJkZjM4YWtyZmJt" target="_blank">
             <div className={styles.headSectionEachItem}>
               <i className='bx bxl-instagram'></i>
             </div>
