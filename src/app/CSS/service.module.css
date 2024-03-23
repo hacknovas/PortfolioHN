@@ -39,10 +39,11 @@
 
 .serviceList {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 25px 0;
+  padding-top: 25px 0;
+  column-gap: 50px;
 }
 
 .singleService Div:nth-child(3) {
@@ -64,7 +65,7 @@
   border-radius: 5px;
   background-color: white;
   width: 300px;
-  padding: 3px;
+  padding: 10px;
 }
 
 .singleService i {
