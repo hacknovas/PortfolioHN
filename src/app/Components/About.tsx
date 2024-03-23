@@ -11,7 +11,7 @@ export default function About() {
                 <div className={styles.aboutSLeft}>
                     <SlideTemplate>
                         <div className={styles.aboutText} >
-                            <div className={styles.sectionName}>About</div>
+                            <div className={styles.sectionName}>About Me</div>
                             I'm <br /> Full Stack Developer <br /> primarily Working On Web 2.0 and Blockhain Technology.
                         </div>
                         <p>
