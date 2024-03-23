@@ -41,8 +41,8 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 0 20px;
-  padding: 1% 20%;
+  flex-wrap: wrap;
+  padding: 25px 0;
 }
 
 .singleService Div:nth-child(3) {
@@ -58,12 +58,13 @@
 }
 
 .singleService {
-  padding: 2% 1%;
   text-align: center;
   transition: all 0.5s ease-in-out;
   box-shadow: 1px 1px 5px lightgray, -1px -1px 5px lightgray;
   border-radius: 5px;
   background-color: white;
+  width: 300px;
+  padding: 3px;
 }
 
 .singleService i {
@@ -79,6 +80,12 @@
   transform: rotateY(180deg);
 }
 
+@media screen and (max-width:720px) {
+  .singleService{
+    margin: 10px 0;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .serviceList {
     display: flex;
@@ -86,23 +93,6 @@
     align-items: center;
     gap: 0 10px;
     padding: 1% 5%;
-  }
-
-  .singleService {
-    padding: 3% 1%;
-    text-align: center;
-    transition: all 0.5s ease-in-out;
-    box-shadow: 1px 1px 5px lightgray, -1px -1px 5px lightgray;
-    border-radius: 5px;
-    width: 10em;
-    height: 8.5em;
-  }
-  .singleService Div:nth-child(3) {
-    display: none;
-  }
-
-  .singleService h3:nth-child(n){
-    /*  */
   }
 
   .singleService i {
