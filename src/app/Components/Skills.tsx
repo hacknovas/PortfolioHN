@@ -5,7 +5,7 @@ import { useState } from "react"
 export default function Skills() {
 
     const [web2, setweb2] = useState(["cplusplus-plain colored", "javascript-plain colored", "typescript-plain colored", "html5-plain-wordmark colored", "css3-plain-wordmark colored", "bootstrap-plain-wordmark colored", "mysql-original colored", "mongodb-plain colored", "react-original colored", "redux-original colored", "nextjs-plain colored", "nodejs-plain-wordmark colored"])
-    const [web3, setweb3] = useState([ "solidity-plain colored", "hardhat-plain colored"])
+    const [web3, setweb3] = useState(["solidity-plain colored", "hardhat-plain colored"])
     const [tools, setTools] = useState(["git-plain colored", "kubernetes-plain colored", "docker-plain colored", "jenkins-plain colored", "linux-plain colored", "terraform-plain colored", "nginx-original colored", "amazonwebservices-plain-wordmark colored", "mocha-plain colored"])
     const [toggle, settoggle] = useState(false)
 
@@ -20,7 +20,9 @@ export default function Skills() {
                         toggle ? document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "1000px" : document.querySelector<HTMLElement>("#toggleCSS2")!.style.right = "0px";
                         !toggle ? settoggle(true) : settoggle(false);
                     }}>
-                        <i className='bx bxs-chevron-down'></i>
+                        {toggle ?
+                            <i className='bx bx-chevron-up'></i> : <i className='bx bx-chevron-down'></i>
+                        }
                     </div>
                     <div id="toggleCSS2" className={styles.skillListAll} >
                         <div className={styles.skilllistItem} onClick={() => {
