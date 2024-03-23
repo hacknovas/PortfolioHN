@@ -12,10 +12,11 @@ export default function About() {
                     <SlideTemplate>
                         <div className={styles.aboutText} >
                             <div className={styles.sectionName}>About Me</div>
-                            I'm <br /> Full Stack Developer <br /> primarily Working On Web 2.0 and Blockhain Technology.
+
+                            I'm Prathamesh Doni, <br />a Full Stack Developer focusing on both Web 2.0 and Blockchain technologies.
                         </div>
                         <p>
-                            As a lifelong learner, I'm driven to excel in any tech field<br />And constantly expanding my skills.
+                            I love learning and always aim to improve in the fast-paced tech world. My goal is to create solutions that matter and keep growing my skills. Let's team up and discover the endless possibilities of tech!
                         </p>
                     </SlideTemplate>
                 </div>

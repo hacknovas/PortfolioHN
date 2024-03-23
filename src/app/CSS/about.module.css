@@ -45,6 +45,11 @@
   transform: scale(1.1);
 }
 
+.aboutSLeft{
+  width: 467px;
+  text-align: justify;
+}
+
 @media screen and (max-width: 500px) {
   .aboutSLeft {
     padding: 0 30px;
