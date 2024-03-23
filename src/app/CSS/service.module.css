@@ -45,6 +45,11 @@
   padding: 1% 20%;
 }
 
+.singleService Div:nth-child(3) {
+  text-align: justify;
+  padding: 0 20px;
+}
+
 .serviceContent {
   display: flex;
   flex-wrap: wrap;
@@ -94,6 +99,10 @@
   }
   .singleService Div:nth-child(3) {
     display: none;
+  }
+
+  .singleService h3:nth-child(n){
+    /*  */
   }
 
   .singleService i {
