@@ -20,9 +20,11 @@ export default function About() {
                         </p>
                     </SlideTemplate>
                 </div>
-                <div className={styles.aboutSReftOutside}>
-                    <Image className={styles.aboutSReft} src="/Images/profileAbout.jpg" alt="NA" width={340} height={300} ></Image>
-                </div>
+                <SlideTemplate>
+                    <div className={styles.aboutSReftOutside}>
+                        <Image className={styles.aboutSReft} src="/Images/profileAbout.jpg" alt="NA" width={340} height={300} ></Image>
+                    </div>
+                </SlideTemplate>
             </div>
         </div>
     )
