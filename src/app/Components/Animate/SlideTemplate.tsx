@@ -26,7 +26,7 @@ export default function SlideTemplate({ children }: { children: React.ReactNode 
 
                 initial="hidden"
                 animate={slideControls}
-                transition={{ duration: 0.8 }}
+                transition={{ duration: 0.9 }}
                 style={{
                 }}
             >

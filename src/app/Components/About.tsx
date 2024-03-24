@@ -15,15 +15,15 @@ export default function About() {
                             I'm Prathamesh Doni, <br />a Full Stack Developer focusing on both Web 2.0 and Blockchain technologies.
                         </div>
                         <p>
-                        Passionate about continuous learning, I thrive in the fast-paced tech world, aiming to create impactful solutions and grow my skills. I'm eager to bring my enthusiasm and expertise to a dynamic team, contributing to exciting and meaningful projects.
+                            Passionate about continuous learning, I thrive in the fast-paced tech world, aiming to create impactful solutions and grow my skills. I'm eager to bring my enthusiasm and expertise to a dynamic team, contributing to exciting and meaningful projects.
                         </p>
                     </SlideTemplate>
                 </div>
-                <SlideTemplate>
-                    <div className={styles.aboutSReftOutside}>
+                <div className={styles.aboutSReftOutside}>
+                    <SlideTemplate>
                         <Image className={styles.aboutSReft} src="/Images/profileAbout.jpg" alt="NA" width={340} height={300} ></Image>
-                    </div>
-                </SlideTemplate>
+                    </SlideTemplate>
+                </div>
             </div>
         </div>
     )
