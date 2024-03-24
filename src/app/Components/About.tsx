@@ -1,4 +1,3 @@
-
 import styles from "@/app/CSS/about.module.css";
 import SlideTemplate from "./Animate/SlideTemplate";
 import Image from "next/image";
@@ -16,7 +15,7 @@ export default function About() {
                             I'm Prathamesh Doni, <br />a Full Stack Developer focusing on both Web 2.0 and Blockchain technologies.
                         </div>
                         <p>
-                            I love learning and always aim to improve in the fast-paced tech world. My goal is to create solutions that matter and keep growing my skills. Let's team up and discover the endless possibilities of tech!
+                        Passionate about continuous learning, I thrive in the fast-paced tech world, aiming to create impactful solutions and grow my skills. I'm eager to bring my enthusiasm and expertise to a dynamic team, contributing to exciting and meaningful projects.
                         </p>
                     </SlideTemplate>
                 </div>
