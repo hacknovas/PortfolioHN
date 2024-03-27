@@ -24,19 +24,14 @@ export async function POST(req: NextRequest, res: NextResponse) {
         to: [data.Email, "creatives.doni@gmail.com"],
         subject: "Hello from Prathamesh Doni..!",
         html: `<p>Hello ${data.Name},</p>
-    
         <p>Thank you for reaching out! Your message has been received and I will get back to you as soon as possible. Your patience is greatly appreciated.</p>
-        
         <p>
         Here is your:
         <ul style="list-style-type:disc;">
             <li>Message: "${data.Message}"<br></li>
             <li>Contact Number: ${data.Phone}</li>
         </ul>
-        
-        
         </p>
-        
         <p>Best regards,<br>
         <strong>Prathamesh Doni</strong></p>`,
     };
