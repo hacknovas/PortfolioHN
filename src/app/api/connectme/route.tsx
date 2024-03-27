@@ -21,10 +21,26 @@ export async function POST(req: NextRequest, res: NextResponse) {
 
     const mailOptions = {
         from: "Prathamesh Doni",
-        to: data.Email,
-        subject: "Hello from Prathamesh Doni",
-        text: `Hello,\n\nThank you for reaching out! I have received your details and will get back to you as soon as possible. Your patience is greatly appreciated.\n\nBest regards,\nPrathamesh Doni`,
+        to: [data.Email, "creatives.doni@gmail.com"],
+        subject: "Hello from Prathamesh Doni..!",
+        html: `<p>Hello ${data.Name},</p>
+    
+        <p>Thank you for reaching out! Your message has been received and I will get back to you as soon as possible. Your patience is greatly appreciated.</p>
+        
+        <p>
+        Here is your:
+        <ul style="list-style-type:disc;">
+            <li>Message: "${data.Message}"<br></li>
+            <li>Contact Number: ${data.Phone}</li>
+        </ul>
+        
+        
+        </p>
+        
+        <p>Best regards,<br>
+        <strong>Prathamesh Doni</strong></p>`,
     };
+
 
     await new Promise((resolve, reject) => {
         transporter.sendMail(mailOptions, (error: any, info: any) => {
@@ -39,6 +55,6 @@ export async function POST(req: NextRequest, res: NextResponse) {
     });
 
     return NextResponse.json({
-        result: "Email sent."
+        result: "Email Sent."
     })
 }

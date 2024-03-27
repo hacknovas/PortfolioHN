@@ -21,10 +21,10 @@ export default function Footer() {
                 }, timeout: 10000
             })
 
-            setdisplayM("Message Sent.");
+            setdisplayM("Thanks for connecting.");
 
         } catch (error) {
-            setdisplayM("Please Try After Some Time.");
+            setdisplayM("Please Try, After Some Time.");
         }
         document.querySelector<HTMLElement>("#msgdisplay")!.style.display = "block";
     }
