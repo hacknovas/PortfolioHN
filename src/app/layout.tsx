@@ -10,7 +10,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Prathamesh Doni",
-  description: "Handled by @Doni_Prathamesh",
+  description: "Created by @Doni_Prathamesh",
 };
 
 export default function RootLayout({
@@ -25,10 +25,8 @@ export default function RootLayout({
         <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         </link>
-
         {/*Devicon Icons" */}
-        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-        
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />        
 
       </head>
 
