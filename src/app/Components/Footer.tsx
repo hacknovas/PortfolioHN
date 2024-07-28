@@ -6,10 +6,10 @@ import { useState } from "react"
 
 export default function Footer() {
 
-    const [Name, setName] = useState<String>();
-    const [Phone, setPhone] = useState<String>();
-    const [Message, setMessage] = useState<String>();
-    const [Email, setEmail] = useState<String>();
+    const [Name, setName] = useState<String>("");
+    const [Phone, setPhone] = useState<String>("");
+    const [Message, setMessage] = useState<String>("");
+    const [Email, setEmail] = useState<String>("");
     const [displayM, setdisplayM] = useState<String>()
 
     const connecthandler = async (e: any) => {
@@ -28,6 +28,7 @@ export default function Footer() {
         }
         document.querySelector<HTMLElement>("#msgdisplay")!.style.display = "block";
     }
+
 
     return (
         <div className={styles.lastFooterSection}>
@@ -61,7 +62,11 @@ export default function Footer() {
 
                 <div className={styles.contactMe}>
                     <h3>Contact Me</h3>
-                    <form onSubmit={connecthandler}>
+                    <form onSubmit={(Email.length >= 1 && Name.length >= 1 && Phone.length == 10) ? connecthandler : (e) => {
+                        e.preventDefault();
+                        setdisplayM("Fill the data correctly.");
+                        document.querySelector<HTMLElement>("#msgdisplay")!.style.display = "block";
+                    }}>
                         <div>
                             <label htmlFor="Name">Name: </label>
                             <input type="text" name="Name" id="Name" onChange={(e) => {
@@ -85,7 +90,7 @@ export default function Footer() {
                             }}></textarea>
                         </div>
                         <div>
-                            <button type="submit" style={{ padding: "7px " ,cursor:"pointer"}} >Submit</button>
+                            <button type="submit" style={{ padding: "7px ", cursor: "pointer" }} >Submit</button>
                         </div>
                     </form>
 
@@ -109,6 +114,6 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
