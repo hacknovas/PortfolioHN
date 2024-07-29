@@ -42,34 +42,43 @@ export default function Project() {
                                 _data.tag == tag ?
                                     <div className={styles.projectSingleItem} key={i}>
                                         <div>
-                                            <b>{_data.Name}</b>
-                                        </div>
-                                        <div style={{ display: "flex" }} >
-                                            <Image src={_data.Image} alt="Na" width={300} height={150} style={{ borderRadius: "5px", boxShadow: "2px 2px 4px black" }}
-                                                objectFit="contain"
-                                            ></Image>
-                                            <div style={{ display: "flex", flexDirection: "column", paddingLeft: "10px", overflowY: "scroll", height: "140px", rowGap: "6px" }}>
-                                                {
-                                                    _data.Tools.map((icons: any, j: Key | null | undefined) => {
-                                                        return (
-                                                            <i className={`devicon-${icons}`} key={j} ></i>
-                                                        )
-                                                    })
-                                                }
+                                            <div>
+                                                <b>{_data.Name}</b>
+                                            </div>
+                                            <div style={{ display: "flex", columnGap: "20px" }} >
+                                                <Image src={_data.Image} alt="Na" width={300} height={150} style={{ borderRadius: "2px", boxShadow: "1px 2px 4px black", border: "4px solid white" }}
+                                                    objectFit="contain"
+                                                ></Image>
+                                                <div style={{ display: "flex", flexDirection: "column", paddingLeft: "10px", overflowY: "scroll", height: "140px", rowGap: "6px" }}>
+                                                    {
+                                                        _data.Tools.map((icons: any, j: Key | null | undefined) => {
+                                                            return (
+                                                                <i className={`devicon-${icons}`} key={j} ></i>
+                                                            )
+                                                        })
+                                                    }
+                                                </div>
                                             </div>
                                         </div>
 
-                                        <div style={{ opacity: "0.7", textWrap: "wrap" }}>
-                                            {_data.Description.substr(0, 90) + "..."}
+                                        <div style={{ borderRight: "1px dotted grey", padding: "10px" }} className={styles.partionline}>
+
                                         </div>
+
                                         <div>
-                                            <a href={_data.GithubLink} target="_blank" style={{ textDecoration: "none", color: "black" }}>
+                                            <div style={{ opacity: "0.7", textWrap: "wrap" }} dangerouslySetInnerHTML={{ __html: _data.Description }}>
 
-                                                <i className={`devicon-${"github"}-plain colored`}>
-                                                    <b style={{ fontSize: "large" }}>GitHub</b>
-                                                </i>
+                                                {/* {_data.Description.substr(0, 90) + "..."} */}
+                                            </div>
+                                            <div style={{ textAlign: "end" }}>
+                                                <a href={_data.GithubLink} target="_blank" style={{ textDecoration: "none", color: "black" }}>
 
-                                            </a>
+                                                    <i className={`devicon-${"github"}-plain colored`}>
+                                                        <b style={{ fontSize: "large" }}>GitHub</b>
+                                                    </i>
+
+                                                </a>
+                                            </div>
                                         </div>
                                     </div> : null
                             )

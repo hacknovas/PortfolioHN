@@ -73,13 +73,11 @@
 }
 
 .projectSingleItem {
-  width: min-content;
-  height: min-content;
   display: flex;
-  flex-direction: column;
   text-align: justify;
+  column-gap: 35px;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 35px;
   box-shadow: 1px 1px 5px lightgray, -1px -1px 5px lightgray;
   transition: all 0.3s ease-in;
   text-wrap: wrap;
@@ -97,4 +95,23 @@
 .projectSingleItem i {
   font-size: 2em;
   padding: 1%;
+}
+
+@media screen and (max-width: 950px) {
+  .projectSingleItem {
+    width: min-content;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px lightgray, -1px -1px 5px lightgray;
+    transition: all 0.3s ease-in;
+    text-wrap: wrap;
+    background-color: white;
+  }
+  .partionline{
+    display: none;
+  }
 }
