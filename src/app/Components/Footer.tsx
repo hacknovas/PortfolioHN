@@ -54,6 +54,10 @@ export default function Footer() {
                             <i className='bx bxl-github'></i>
                         </Link>
 
+                        <Link href="https://hub.docker.com/u/prathameshdoni" target="_blank">
+                            <i className='bx bxl-docker'></i>
+                        </Link>
+
                         <Link href="" target="_blank">
                             <i className='bx bxl-instagram'></i>
                         </Link>
