@@ -1,6 +1,6 @@
 [
   {
-    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689016057/TalATive.png",
+    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1722274817/masvchkhytnieaikc7xa.png",
     "Name": "QuickChat",
     "Description": "Real time chat application built using MERN stack and Websocket.Implemented email-based search and connection features, along with real-time communication in both one-on-one and group chat using Socket.IO integration.",
     "Tools": [
@@ -15,7 +15,7 @@
     "GithubLink": "https://github.com/hacknovas/QuickChat"
   },
   {
-    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689011961/WBCOMP.png",
+    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1722274849/d51raeblifmzdknc5x3z.png",
     "Name": "UpSort",
     "Description": "Similar products comparison website build using Web Scraping and NextJS. Implemented server-side logic using Puppeteer and Cheerio alongside API development to extract product information from e-commerce website",
     "Tools": [
@@ -28,7 +28,7 @@
   },
 
   {
-    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689012663/BTrans.png",
+    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1722274835/skb8ppjzzul3cavjvonh.png",
     "Name": "BTrans",
     "Description": "Blockchain Based (Ethereum) Cryptocurrency exchange and transfer application build on Testnet(Goerile,Polygon,Sepolia)",
     "Tools": ["react-original colored", "bootstrap-plain colored"],
@@ -36,7 +36,7 @@
     "GithubLink": "https://github.com/hacknovas/BLChain_Pay.git"
   },
   {
-    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1689012352/AvtarNFTs.png",
+    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1722274830/updqzfy15zncbh2r2au8.png",
     "Name": "NFT Marketplace",
     "Description": "Marketplace designed for selling and buying non-fungible tokens, built on ERC721. Addressed challenges in the traditional art and collectibles market by leveraging blockchain technology to ensure authenticity and ownership verification of digital assets.",
     "Tools": ["react-original colored", "solidity-plain colored"],
@@ -44,7 +44,7 @@
     "GithubLink": "https://github.com/hacknovas/NFT_MarketPlace"
   },
   {
-    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1710504775/p4keii2kb4jr9pxesojc.png",
+    "Image": "https://res.cloudinary.com/dlhq8p5ck/image/upload/v1722274823/vmoz2zdmyp88yhzdzguu.png",
     "Name": "Uncloud",
     "Description": "Ethereum blockchain based file storage and sharing system.",
     "Tools": [
