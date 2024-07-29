@@ -9,10 +9,10 @@ export default function Edu() {
                 <div className={styles.educationList}>
                     <div className={styles.educationMark}>
                         <div className={styles.singleEDU}>
-                            <b>2020 - Present</b>
+                            <b>2020 - 2024</b>
                             <h3>B.E in Computer Engineering</h3>
                             <div>VPKBIET, Baramati</div>
-                            <p>CGPA:  9.30</p>
+                            <p>CGPA:  9.05</p>
                         </div>
                         <div className={styles.singleEDU}>
                             <b>2019 - 2020</b>
