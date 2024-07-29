@@ -50,6 +50,12 @@ export default function Header() {
             </div>
           </Link>
 
+          <Link href="https://hub.docker.com/u/prathameshdoni" target="_blank">
+            <div className={styles.headSectionEachItem}>
+              <i className='bx bxl-docker'></i>
+            </div>
+          </Link>
+
           <Link href="https://www.instagram.com/the_prathamesh_doni?igsh=dHJkZjM4YWtyZmJt" target="_blank">
             <div className={styles.headSectionEachItem}>
               <i className='bx bxl-instagram'></i>
@@ -61,6 +67,8 @@ export default function Header() {
               <i className='bx bx-link'></i>
             </div>
           </Link>
+
+
         </ul>
 
         <div className={styles.headSectionIntro}>

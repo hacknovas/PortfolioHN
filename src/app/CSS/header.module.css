@@ -132,6 +132,7 @@
 
   .headSectionItems {
     flex-direction: row;
+    justify-content: space-evenly;
     padding: 2% 0;
   }
   .headSectionItems a {
