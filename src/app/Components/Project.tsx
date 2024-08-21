@@ -43,13 +43,15 @@ export default function Project() {
                                     <div className={styles.projectSingleItem} key={i}>
                                         <div>
                                             <div>
-                                                <b>{_data.Name}</b>
+                                                <b style={{ fontSize: "large" }}>{_data.Name}</b>
                                             </div>
-                                            <div style={{ display: "flex", columnGap: "20px" }} >
-                                                <Image src={_data.Image} alt="Na" width={300} height={150} style={{ borderRadius: "2px", boxShadow: "1px 2px 4px black", border: "4px solid white" }}
+                                            <div style={{ display: "flex", alignItems: "center", columnGap: "20px" }} >
+                                                <Image src={_data.Image} alt="NA" width={420} height={220} style={{ borderRadius: "2px", boxShadow: "1px 2px 4px black", border: "4px solid white" }}
                                                     objectFit="contain"
+                                                    className={styles.projectImage}
                                                 ></Image>
                                                 <div style={{ display: "flex", flexDirection: "column", paddingLeft: "10px", overflowY: "scroll", height: "140px", rowGap: "6px" }}>
+                                                    <i className='bx bx-chevron-up'></i>
                                                     {
                                                         _data.Tools.map((icons: any, j: Key | null | undefined) => {
                                                             return (
@@ -57,6 +59,7 @@ export default function Project() {
                                                             )
                                                         })
                                                     }
+                                                    <i className='bx bx-chevron-down'></i>
                                                 </div>
                                             </div>
                                         </div>

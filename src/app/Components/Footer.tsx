@@ -34,7 +34,7 @@ export default function Footer() {
         <div className={styles.lastFooterSection}>
             <div id="contactMeSection" className={styles.contactSection}>
                 <div className={styles.contactInfo}>
-                    <h3>Contact info</h3>
+                    <h3>Contact me now! 👇</h3>
                     <div><i className='bx bxs-map'></i> Pune, India</div>
                     <div><i className='bx bxs-envelope'></i> creatives.doni@gmail.com</div>
                     <div><i className='bx bxs-phone'></i>
@@ -65,7 +65,7 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.contactMe}>
-                    <h3>Contact Me</h3>
+                    <h3>Let's Chat</h3>
                     <form onSubmit={(Email.length >= 1 && Name.length >= 1 && Phone.length == 10) ? connecthandler : (e) => {
                         e.preventDefault();
                         setdisplayM("Fill the data correctly.");
@@ -94,7 +94,7 @@ export default function Footer() {
                             }}></textarea>
                         </div>
                         <div>
-                            <button type="submit" style={{ padding: "7px ", cursor: "pointer" }} >Submit</button>
+                            <button type="submit" style={{ padding: "7px ", cursor: "pointer" }} disabled>Submit</button>
                         </div>
                     </form>
 

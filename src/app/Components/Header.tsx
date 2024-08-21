@@ -13,7 +13,7 @@ export default function Header() {
       <div className={styles.navSection}>
         <div className={styles.navName}>
           <Link href="/" style={{ textDecoration: "none", color: "black" }}>
-            <h3>Prathamesh Doni </h3>
+            <h3>Prathamesh Doni</h3>
           </Link>
         </div>
         <ul id="toggleCSS" className={styles.navSectionList} onClick={() => {
@@ -73,8 +73,8 @@ export default function Header() {
 
         <div className={styles.headSectionIntro}>
           <SlideTemplate>
-            <div><b style={{ opacity: "0.7" }}>Welcome...!</b></div>
-            <h1>I'm Prathamesh </h1>
+            <div><b style={{ opacity: "0.7" }}>Namaste...!</b></div>
+            <h1>I'm Full Stack Web <br /> Developer 👋🏼 </h1>
             <h3 style={{ opacity: "0.8" }}>Capable of shaping concepts into execution.</h3>
           </SlideTemplate>
         </div>
@@ -85,7 +85,7 @@ export default function Header() {
               <i className='bx bxl-gmail'></i>
             </div>
           </Link>
-          Ask me..!
+          Mail me at..!
         </div>
       </div>
     </div>

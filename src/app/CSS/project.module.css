@@ -75,6 +75,7 @@
 .projectSingleItem {
   display: flex;
   text-align: justify;
+  align-items: center;
   column-gap: 35px;
   border-radius: 10px;
   padding: 10px 35px;
@@ -111,6 +112,12 @@
     text-wrap: wrap;
     background-color: white;
   }
+
+  .projectImage{
+    width: 300px;
+    height: 150px;
+  }
+
   .partionline{
     display: none;
   }
