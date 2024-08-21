@@ -6,7 +6,6 @@ import Header from "./Components/Header";
 import Project from "./Components/Project";
 import Service from "./Components/Service";
 import Skills from "./Components/Skills";
-import { motion } from "framer-motion"
 
 export default function Home() {
   return (

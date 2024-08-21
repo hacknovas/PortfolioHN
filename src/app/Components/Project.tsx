@@ -1,6 +1,5 @@
 "use client"
 import styles from "@/app/CSS/project.module.css"
-import axios from "axios";
 import Image from "next/image"
 import { Key, useEffect, useState } from "react";
 import projectJSON from "@/utils/mydata.myprojects.json"
