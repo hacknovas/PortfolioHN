@@ -102,7 +102,7 @@ export default function Footer() {
             </div>
 
             <div className={styles.footerSection}>
-                build by <Link href="https://www.github.com/hacknovas">
+                built by <Link href="https://www.github.com/hacknovas">
                     @Prathamesh Doni
                 </Link>
             </div>
