@@ -23,12 +23,12 @@ export default function Header() {
           <div className={styles.closeButton}>
             &#10005;
           </div>
-          <li className={styles.navSectionListItems}><Link href="#aboutSection"><div>About</div></Link></li>
-          <li className={styles.navSectionListItems}><Link href="#servicesSection"><div>Services</div></Link></li>
-          <li className={styles.navSectionListItems}><Link href="#skillSection"><div>Skills</div></Link></li>
-          <li className={styles.navSectionListItems}><Link href="#projectSection"><div>Projects</div></Link></li>
-          <li className={styles.navSectionListItems}><Link href="#experienceSection"><div>Experience</div></Link></li>
-          <li className={styles.navSectionListItems}><Link href="#eduSection"><div>Qualification</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="/#aboutSection"><div>About</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="/#servicesSection"><div>Services</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="/#skillSection"><div>Skills</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="/#projectSection"><div>Projects</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="/#experienceSection"><div>Experience</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="/#eduSection"><div>Qualification</div></Link></li>
         </ul>
         <div className={styles.navMenuIcon}>
           <i className='bx bx-menu' onClick={() => {
