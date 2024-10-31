@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 950px) {
   .projectSingleItem {
-    width: min-content;
+    width: 100%;
     height: min-content;
     display: flex;
     flex-direction: column;

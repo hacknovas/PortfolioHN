@@ -44,21 +44,19 @@ export default function Project() {
                                             <div>
                                                 <b style={{ fontSize: "large" }}>{_data.Name}</b>
                                             </div>
-                                            <div style={{ display: "flex", alignItems: "center", columnGap: "20px" }} >
+                                            <div>
                                                 <Image src={_data.Image} alt="NA" width={420} height={220} style={{ borderRadius: "2px", boxShadow: "1px 2px 4px black", border: "4px solid white" }}
                                                     objectFit="contain"
                                                     className={styles.projectImage}
                                                 ></Image>
-                                                <div style={{ display: "flex", flexDirection: "column", paddingLeft: "10px", overflowY: "scroll", height: "140px", rowGap: "6px" }}>
-                                                    <i className='bx bx-chevron-up'></i>
+                                                <div style={{textAlign:"center",paddingTop:"10px"}}>
                                                     {
                                                         _data.Tools.map((icons: any, j: Key | null | undefined) => {
                                                             return (
-                                                                <i className={`devicon-${icons}`} key={j} ></i>
+                                                                <i className={`devicon-${icons}`} key={j} >.</i>
                                                             )
                                                         })
                                                     }
-                                                    <i className='bx bx-chevron-down'></i>
                                                 </div>
                                             </div>
                                         </div>
