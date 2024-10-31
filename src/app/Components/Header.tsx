@@ -27,6 +27,7 @@ export default function Header() {
           <li className={styles.navSectionListItems}><Link href="#servicesSection"><div>Services</div></Link></li>
           <li className={styles.navSectionListItems}><Link href="#skillSection"><div>Skills</div></Link></li>
           <li className={styles.navSectionListItems}><Link href="#projectSection"><div>Projects</div></Link></li>
+          <li className={styles.navSectionListItems}><Link href="#experienceSection"><div>Experience</div></Link></li>
           <li className={styles.navSectionListItems}><Link href="#eduSection"><div>Qualification</div></Link></li>
         </ul>
         <div className={styles.navMenuIcon}>

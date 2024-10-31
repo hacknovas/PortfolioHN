@@ -1,6 +1,7 @@
 import About from "./Components/About";
 import Template from "./Components/Animate/Template";
 import Edu from "./Components/Edu";
+import Experience from "./Components/Experience";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Project from "./Components/Project";
@@ -26,10 +27,13 @@ export default function Home() {
         <Project />
       </Template>
       <Template>
+        <Experience />
+      </Template>
+      <Template>
         <Edu />
       </Template>
       <Footer />
     </div>
-    
+
   );
 }

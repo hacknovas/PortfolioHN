@@ -16,7 +16,7 @@
   opacity: 0.5;
 }
 
-.educationSection {
+.experienceSection {
   margin: 50px 0;
 }
 
@@ -30,17 +30,11 @@
 .educationList {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 45px;
+  grid-column-gap: 45px;
   width: fit-content;
 }
-
-.educationMark {
-  border-left: 2px solid grey;
-  padding: 0 20px;
-  border-bottom: 10%;
-}
 /*  */
-.singleEDUL {
+.singleEXPL {
   border: 2px solid lightgrey;
   margin-bottom: 20px;
   transition: all 0.3s ease-in;
@@ -51,11 +45,11 @@
   border-right: 2px solid black;
 }
 
-.singleEDUL:hover {
+.singleEXPL:hover {
   transform: translateX(-2px);
 }
 
-.singleEDUL::before {
+.singleEXPL::before {
   content: "";
   position: relative;
   width: 16px;
@@ -67,7 +61,8 @@
   left: 374px;
   top: -14px;
 }
-.singleEDUL div {
+
+.singleEXPL div {
   text-align: end;
   font-size: small;
   opacity: 0.5;
@@ -75,7 +70,7 @@
 }
 /*  */
 
-.singleEDUR {
+.singleEXPR {
   border: 2px solid lightgrey;
   margin-bottom: 20px;
   transition: all 0.3s ease-in;
@@ -86,11 +81,11 @@
   border-left: 2px solid black;
 }
 
-.singleEDUR:hover {
+.singleEXPR:hover {
   transform: translateX(2px);
 }
 
-.singleEDUR::before {
+.singleEXPR::before {
   content: "";
   position: relative;
   width: 16px;
@@ -102,21 +97,23 @@
   left: -43px;
   top: -14px;
 }
-.singleEDUR div {
+
+.singleEXPR div {
   text-align: end;
   font-size: small;
   opacity: 0.5;
   font-weight: bold;
 }
+
 /*  */
 @media screen and (max-width: 415px) {
   .educationList {
     width: 90%;
   }
-  .singleEDUL {
+  .singleEXPL {
     width: 100%;
   }
-  .singleEDUR {
+  .singleEXPR {
     width: 100%;
   }
 }
