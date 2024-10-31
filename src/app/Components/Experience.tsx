@@ -10,7 +10,7 @@ export default function Experience() {
                     <div className={styles.singleEXPL}>
                         <b>October 2024 -- Present</b>
                         <h3>Software Engineer</h3>
-                        <div>Capgemini</div>
+                        <div>Capgemini, India</div>
                         <p>Pune, Maharashtra, India</p>
                     </div>
 
