@@ -34,6 +34,23 @@
   width: fit-content;
 }
 /*  */
+
+
+/*  */
+
+.singleEMPTYR {
+  border-left: 2px solid grey;
+  position: relative;
+  left: 395px;
+}
+
+.singleEMPTYL {
+  border-left: 2px solid grey;
+  position: relative;
+  left: -24px;
+}
+
+/*  */
 .singleEXPL {
   border: 2px solid lightgrey;
   margin-bottom: 20px;
@@ -57,7 +74,7 @@
   height: 16px;
   display: inline-block;
   border-radius: 50%;
-  background-color: black;
+  background-color: grey;
   border: 2px solid white;
   left: 374px;
   top: -14px;
@@ -77,7 +94,7 @@
   margin-bottom: 20px;
   transition: all 0.3s ease-in;
   border-radius: 5px;
-  padding: 10px;
+  padding: 8px;
   font-size: medium;
   width: 350px;
   border-left: 2px solid black;
@@ -95,7 +112,7 @@
   height: 16px;
   display: inline-block;
   border-radius: 50%;
-  background-color: black;
+  background-color: grey;
   border: 2px solid white;
   left: -43px;
   top: -14px;
@@ -133,7 +150,7 @@
     height: 16px;
     display: inline-block;
     border-radius: 50%;
-    background-color: black;
+    background-color: grey;
     border: 2px solid white;
     left: -43px;
     top: -14px;

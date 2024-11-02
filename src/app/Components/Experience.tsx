@@ -14,8 +14,8 @@ export default function Experience() {
                         <p><i className='bx bx-map'></i> Pune, Maharashtra, India</p>
                     </div>
 
-                    <div></div>
-                    <div></div>
+                    <div className={styles.singleEMPTYL}></div>
+                    <div className={styles.singleEMPTYR}></div>
 
                     <div className={styles.singleEXPR}>
                         <b>August 2022 -- September 2022</b>

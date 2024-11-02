@@ -13,8 +13,8 @@ export default function Edu() {
                         <div><i className='bx bx-map'></i> VPKBIET, Baramati</div>
                         <p>CGPA:  9.05</p>
                     </div>
-                    <div></div>
-                    <div></div>
+                    <div className={styles.singleEMPTYL}></div>
+                    <div className={styles.singleEMPTYR}></div>
                     <div className={styles.singleEDUR}>
                         <b>2019 -- 2020</b>
                         <h3>Class XII (MSBSHSE)</h3>
@@ -22,8 +22,6 @@ export default function Edu() {
                         <p>Percentage: 78% </p>
                         <p></p>
                     </div>
-                    <div></div>
-                    <div></div>
                     <div className={styles.singleEDUL}>
                         <b>2017 -- 2018</b>
                         <h3>Class X (MSBSHSE)</h3>
@@ -31,6 +29,7 @@ export default function Edu() {
                         <p>Percentage: 90% </p>
                         <p></p>
                     </div>
+                    <div className={styles.singleEMPTYL}></div>
                 </div>
             </div>
         </div>
