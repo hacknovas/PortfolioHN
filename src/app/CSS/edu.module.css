@@ -49,6 +49,7 @@
   font-size: medium;
   width: 350px;
   border-right: 2px solid black;
+  box-shadow: -3px 3px 8px lightgray;
 }
 
 .singleEDUL:hover {
@@ -84,6 +85,7 @@
   font-size: medium;
   width: 350px;
   border-left: 2px solid black;
+  box-shadow: 3px 3px 8px lightgray;
 }
 
 .singleEDUR:hover {
