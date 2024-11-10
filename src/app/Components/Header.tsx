@@ -74,8 +74,8 @@ export default function Header() {
 
         <div className={styles.headSectionIntro}>
           <SlideTemplate>
-            <div><b style={{ opacity: "0.7" }}>Namaste...!</b></div>
-            <h1>I'm Full Stack Web <br /> Developer 👋🏼 </h1>
+            <div><b style={{ opacity: "0.7",fontSize:"x-large" }}>Namaste...!</b></div>
+            <h1>I'm Full Stack <br /> Developer 👋🏼 </h1>
             <h3 style={{ opacity: "0.8" }}>Capable of shaping concepts into execution.</h3>
           </SlideTemplate>
         </div>

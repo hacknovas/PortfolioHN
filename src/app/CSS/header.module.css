@@ -74,6 +74,10 @@
   flex-grow: 1;
 }
 
+.headSectionIntro h1{
+  font-size: xxx-large;
+}
+
 .projectSectionDiv {
   display: flex;
   /* flex-wrap: wrap; */
