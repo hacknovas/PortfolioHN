@@ -13,7 +13,7 @@ export default function Header() {
       <div className={styles.navSection}>
         <div className={styles.navName}>
           <Link href="/" style={{ textDecoration: "none", color: "black" }}>
-            <h3>Prathamesh Doni</h3>
+            <h3>Rohit Mahto</h3>
           </Link>
         </div>
         <ul id="toggleCSS" className={styles.navSectionList} onClick={() => {
