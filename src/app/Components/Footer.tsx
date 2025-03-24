@@ -58,7 +58,7 @@ export default function Footer() {
                             <i className='bx bxl-docker'></i>
                         </Link>
 
-                        <Link href="" target="_blank">
+                        <Link href="https://www.instagram.com/the_prathamesh_doni" target="_blank">
                             <i className='bx bxl-instagram'></i>
                         </Link>
                     </div>
