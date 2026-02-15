@@ -8,7 +8,7 @@ export default function Experience() {
                 <div className={styles.sectionName}>Experience</div>
                 <div className={styles.educationList}>
                     <div className={styles.singleEXPL}>
-                        <b>October 2024 -- Present</b>
+                        <b>November 2024 -- Present</b>
                         <h3>Associate Software Engineer</h3>
                         <div>Capgemini, India</div>
                         <p><i className='bx bx-map'></i> Pune, Maharashtra, India</p>
