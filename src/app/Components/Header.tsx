@@ -63,7 +63,7 @@ export default function Header() {
             </div>
           </Link>
 
-          <Link href="https://drive.google.com/file/d/1HH3eLNn7yXGfyJfq6k_pNIfaK6Pw2iPt/view?usp=sharing" target="_blank">
+          <Link href="https://drive.google.com/file/d/1uxls2XZ7ZmxfHpkyZjaPq_UVfl33QFvl/view" target="_blank">
             <div className={styles.headSectionEachItem}>
               <i className='bx bx-link'></i>
             </div>
