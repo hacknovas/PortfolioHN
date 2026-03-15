@@ -4,9 +4,9 @@ import { useState } from "react"
 
 export default function Skills() {
 
-    const [web2, setweb2] = useState(["cplusplus-plain colored", "javascript-plain colored","dotnetcore-plain colored","csharp-plain colored", "typescript-plain colored", "html5-plain-wordmark colored", "css3-plain-wordmark colored", "bootstrap-plain-wordmark colored","azuresqldatabase-plain colored", "mysql-original colored", "mongodb-plain colored", "react-original colored", "redux-original colored", "nextjs-plain colored", "nodejs-plain-wordmark colored"])
+    const [web2, setweb2] = useState(["cplusplus-plain colored", "javascript-plain colored","dot-net-plain-wordmark colored","dotnetcore-plain colored","csharp-plain colored","visualbasic-plain colored", "typescript-plain colored", "html5-plain-wordmark colored", "css3-plain-wordmark colored", "bootstrap-plain-wordmark colored","azuresqldatabase-plain colored", "mysql-original colored", "mongodb-plain colored", "react-original colored", "redux-original colored", "nextjs-plain colored", "nodejs-plain-wordmark colored","oracle-original colored"])
     const [web3, setweb3] = useState(["solidity-plain colored", "hardhat-plain colored"])
-    const [tools, setTools] = useState([ "azure-plain-wordmark colored","amazonwebservices-plain-wordmark colored","git-plain colored", "kubernetes-plain colored", "docker-plain colored", "jenkins-plain colored", "linux-plain colored", "terraform-plain colored", "nginx-original colored", "mocha-plain colored"])
+    const [tools, setTools] = useState([ "azure-plain-wordmark colored","amazonwebservices-plain-wordmark colored","git-plain colored", "kubernetes-plain colored", "docker-plain colored", "jenkins-plain colored", "linux-plain colored", "terraform-plain colored", "nginx-original colored", "mocha-plain colored","sqldeveloper-plain colored"])
     const [toggle, settoggle] = useState(false)
 
     return (
