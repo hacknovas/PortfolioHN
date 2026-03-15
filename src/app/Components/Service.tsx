@@ -9,12 +9,12 @@ export default function Service() {
                 <div className={styles.sectionName}>My Services</div>
                 <div className={styles.serviceList}>
                     <div className={styles.singleService}>
-                        <i className="devicon-html5-plain"></i>
+                        <div><i className="devicon-html5-plain"></i></div>
                         <h3>Software Development</h3>
                         <div>Building reliable and scalable software solutions using modern technologies, focusing on performance, maintainability, and real-world business requirements.</div>
                     </div>
                     <div className={styles.singleService}>
-                        <i className="devicon-codepen-original colored"></i>
+                        <div><i className="devicon-codepen-original colored"></i></div>
                         <h3>Backend & API Development</h3>
                         <div>Designing secure and scalable backend systems using .NET, Node.js, and RESTful APIs to power modern web and mobile applications.</div>
                     </div>
