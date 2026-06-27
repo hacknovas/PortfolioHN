@@ -13,10 +13,15 @@ export default function Experience() {
                         <div>Capgemini, India</div>
                         <p><i className='bx bx-map'></i> Pune, Maharashtra, India</p>
                         <ul>
-                            <li>Working as a Full Stack Developer for Aptiv, a global automotive technology company.</li>
-                            <li>Developing and maintaining enterprise applications using C#, VB.NET, and SQL-based databases (SQL Server, MySQL, PL/SQL).</li>
-                            <li>Managing and supporting multiple Supply Chain Management (SCM) applications to ensure smooth logistics operations and 24/7 system availability.</li>
-                            <li>Collaborating with business stakeholders to understand requirements and deliver effective technical solutions.</li>
+                            <li>Working as a Full Stack Developer for Aptiv and Versigent client, contributing to the support, enhancement, and development of enterprise applications.</li>
+                            <li>Currently building and maintaining C# and VB.NET solutions and services using SQL, PL/SQL and MySQL databases.</li>
+                            <li>Delivering end-to-end features and enhancements, including development, testing, deployment, and production support.</li>
+                            <li>Gained experience working with and enhancing legacy enterprise applications. Improved application stability through bug fixes, enhancements and codebase optimization.</li>
+                            <li>Experience in Windows Services and Scheduled Jobs which automate and streamline data processing.</li>
+                            <li>Managing multiple Supply Chain Management (SCM) applications to streamline logistics and ensure 24/7 operational availability. </li>
+                            <li>Collaborating with business stakeholders and cross-functional teams to analyze requirements, troubleshoot issues, and deliver effective technical solutions, including application integrations.</li>
+                            <li>Played a key role in the transition of 12+ Source-to-Pay (S2P) enterprise applications from TCS to Capgemini, contributing to a seamless client onboarding.</li>
+                            <li>Took ownership of Knowledge Transfer (KT) sessions, documenting application architecture, business workflows, and integration points for multiple applications.</li>
                         </ul>
                     </div>
 
